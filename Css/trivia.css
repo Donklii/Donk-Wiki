@@ -1,0 +1,11 @@
+.trivia-titulo {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.trivia-linha {
+    border: 1px solid var(--cor-borda);
+    width: 100%;
+    margin-bottom: 15px;
+}

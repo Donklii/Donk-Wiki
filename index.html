@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donklii - Official Donklii Wiki</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/avatar.css">
+    <link rel="stylesheet" href="Css/corpo.css">
+    <link rel="stylesheet" href="Css/portfolio.css">
+    <link rel="stylesheet" href="Css/glossario.css">
+    <link rel="stylesheet" href="Css/trivia.css">
+
+    <script src="JavaScripts/glossario.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="destaque">Donklii</h1>
+    </header>
+    
+    <div class="container">
+        <div style="margin-bottom: 2%;"> 
+            <h1>Donklii</h1>
+            <div class="frase"> 
+                <strong style="font-size:larger;"> <strong class="aspas">“ </strong>The Donklii is afraid of nothing!! <strong class="aspas"> „</strong></strong>
+                <p> –Donklii</p>
+            </div>
+        </div>
+        
+        <div class="corpo">
+            <div class="texto">
+                <strong> About me:</strong>
+                <p>
+                    I'm a developer focused on game programming, with practical and academic experience since 2023.
+                    I'm familiar with multiple platforms and languages, and I enjoy creating interactive experiences that blend creativity, humor, and technical design.
+                </p>
+                
+                <div class="glossario-box">
+                    <div class="glossario-title">
+                        Glossary
+                        <button class="toggle-button" onclick="toggleGlossario()">−</button>
+                    </div>
+                    <ul class="glossario-list" id="glossario-list">
+                        <li><a href="#Experiências">Experiences</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#linguagens">Languages</a></li>
+                        <li><a href="#materias">Completed Courses</a></li>
+                        <li><a href="#trivia">Trivia</a></li>
+                    </ul>
+                </div>
+                
+                <section id="Experiências">
+                    <h2 class="cor-secundaria" style="margin-top: 2rem; margin-bottom: 1rem;">
+                        🧠 Experiences and Skills
+                    </h2>
+                    <ul style="line-height: 1.8; padding-left: 1.2rem;">
+                        <li>
+                            <span class="cor-secundaria">Game development</span> on 
+                            <span class="destaque">Roblox</span>, including scripting, level design, and polish.
+                        </li>
+                        <li>
+                            Use of the <span class="destaque">Godot</span> engine, applying 
+                            <span class="destaque">GDScript</span> in 2D projects.
+                        </li>
+                        <li>
+                            Basic creation of interactive and styled pages using 
+                            <span class="destaque">HTML</span>, <span class="destaque">CSS</span>, and 
+                            <span class="destaque">JavaScript</span>.
+                        </li>
+                        <li>
+                            Development in <span class="destaque">Java</span>, with focus on 
+                            <span class="cor-secundaria">logic, data structures,</span> and 
+                            <span class="cor-secundaria">UI design</span>.
+                        </li>
+                        <li>
+                            Creation of simple <span class="destaque">animations</span> and transitions.
+                        </li>
+                        <li>
+                            <span class="destaque">Sound design</span> and <span class="cor-secundaria">audio direction</span>.
+                        </li>
+                        <li>
+                            <span class="cor-secundaria">Photography</span> and <span class="destaque">filming</span> for game assets and presentation.
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="avatar">
+                <strong class="avatar titulo"> Donklii</strong>
+                
+                <img src="https://pbs.twimg.com/profile_images/1708965826345263104/YGhHsi60_400x400.jpg" alt="Example Image">
+            
+                <div class="linha-info">
+                    <div class="linha-titulo"><strong>Other names:</strong></div>
+                    <div class="linha-conteudo">
+                        <ul class="lista-circulo">
+                            <li>Hélio</li>
+                            <li>Ryo</li>
+                            <li>The Fearless</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <p><strong>Affiliation:</strong> Amongus Drip</p>
+                <p><strong>Occupation:</strong> Programmer</p>
+
+                <strong class="avatar titulo"> Description </strong>
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>Languages:</strong> English, Portuguese</p>
+                <p><strong>Nationality:</strong> Brazilian</p>
+                <strong class="avatar titulo"> Contact </strong>
+                <p><strong>Email: </strong> donklii13@gmail.com</p>
+                <p><strong>Discord: </strong> donklii</p>
+                <p><strong>Mainly: </strong>@Donklii</p>
+            </div>
+        </div>
+
+        <div id="portfolio" class="aba-container">
+            <div class="abas">
+                <button class="aba ativa" onclick="mudarAba('aba1', this)">Roblox</button>
+                <button class="aba" onclick="mudarAba('aba2', this)">Godot</button>
+                <button class="aba" onclick="mudarAba('aba3', this)">GitHub</button>
+            </div>
+            
+            <div class="conteudo-aba" id="aba1">
+                <div class="roblox-section" style="padding: 2rem; max-width: 900px; margin: 0 auto;">
+                    <h2 class="cor-secundaria destaque" style="font-size: 2rem; text-align: center; margin-bottom: 2rem;">
+                        My Experience with Roblox
+                    </h2>
+                
+                    <p style="line-height: 1.7;">
+                        Over the years, I’ve built a solid familiarity with <span class="cor-secundaria destaque">Roblox Studio</span> — 
+                        mostly by just diving in and trying things out. From small random tests to game mechanics, 
+                        I’ve always enjoyed messing around with the platform’s creative potential.
+                    </p>
+                
+                    <p style="line-height: 1.7; margin-top: 1rem;">
+                        My <span class="cor-secundaria destaque">first game</span> ever published on Roblox was 
+                        <a href="https://www.roblox.com/pt/games/14724944256/Escape-from-the-SKIBIDI-TOILETS-OBBY" target="_blank">
+                            this one</a>. 
+                        It's... not good. But hey, at least it got finished — and that is very important.
+                    </p>
+                
+                    <!-- Game Image -->
+                    <div style="text-align: center; margin: 2rem 0;">
+                        <a href="https://www.roblox.com/pt/games/14724944256/Escape-from-the-SKIBIDI-TOILETS-OBBY" target="_blank">
+                        <img src="https://tr.rbxcdn.com/180DAY-92277e6c165ccb321d636245b5420888/768/432/Image/Webp/noFilter" 
+                            alt="First Roblox Game Screenshot"
+                            style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s ease;">
+                        </a>
+                        <p style="font-size: 0.9rem; color: gray; margin-top: 0.5rem;">Click the image to check out (at your own risk)</p>
+                    </div>
+                
+                
+                    <p style="line-height: 1.7;">
+                        Right now, I’m working on a much more ambitious project: 
+                        <span class="cor-secundaria destaque">Ryan Gosling Tycoon</span> (coming soon). 
+                        The idea is to relive iconic Ryan Gosling movies and stories — be him, literally....
+                    </p>
+                
+                    <h3 class="cor-secundaria destaque" style="margin-top: 2.5rem; font-size: 1.5rem;">Presentation Video</h3>
+                
+                    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1rem;">
+                        <iframe 
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=woS4C9GYoIRXTvm3" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen
+                            style="position:absolute; top:0; left:0; width:100%; height:100%;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="conteudo-aba" id="aba2" style="display: none;">
+                <style>
+
+                    .destaque {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                
+                    .paragrafo-ajustado {
+                        line-height: 1.8;
+                        font-size: 1.05rem;
+                        margin-bottom: 1.5rem;
+                    }
+                
+                    .lista-customizada {
+                        padding-left: 1.5rem;
+                        margin-top: 0.5rem;
+                        line-height: 1.6;
+                    }
+                
+                    .imagem-destaque {
+                        margin: 2% 0;
+                        max-width: 100%;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                    }
+                
+                    h2, h3 {
+                        margin-top: 2rem;
+                        font-size: 1.8rem;
+                    }
+                
+                    h3 {
+                        color: var(--cor-secundaria);
+                    }
+                </style>
+                
+                <h2>My Experience with <span class="cor-secundaria destaque">Godot</span></h2>
+                
+                <p class="paragrafo-ajustado">
+                    I’ve spent around <span class="cor-secundaria destaque">500 hours</span> using the <span class="cor-secundaria destaque">Godot Engine</span>, mostly focused on <span class="destaque">2D programming</span>. Along the way, I also gained experience working with <span class="destaque">audio implementation</span>.
+                </p>
+                
+                <p class="paragrafo-ajustado">
+                    One of my main projects was a discontinued demo titled <span class="cor-secundaria destaque">Arce Armorum</span>, available on <span class="destaque">itch.io</span>. The game follows a wizard in search of his magical staff, fighting off living weapons who guard the castle.
+                    I handled all <span class="destaque">programming</span> and <span class="destaque">audio direction</span>, while visuals were managed by another team member.
+                </p>
+                
+                <p class="paragrafo-ajustado">
+                    You can check out the game by clicking 
+                    <a href="https://astospam.itch.io/arcearmorum" target="_blank">here</a>. 
+                    Though it never reached even half of its intended scope, it showcased a lot of potential through its core <span class="destaque">mechanics</span> and conceptual ideas. 
+                    Please note that the version available on itch.io is <span class="cor-secundaria destaque">not the latest build</span> we produced — several improvements and additions were made afterward but never published.
+                </p>
+                
+                
+                <h3>Presentation Video</h3>
+                
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe 
+                        src="https://player.vimeo.com/video/1007499373?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="Arce Armorum Demo Trailer">
+                    </iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+                
+                <p class="paragrafo-ajustado">
+                    The trailer was produced by a team member who also composed the <span class="destaque">music</span>.
+                </p>
+                
+                <hr style="margin: 3% 0; border: 1px dashed var(--cor-destaque);">
+                
+                <h3>Other Projects</h3>
+                
+                <p class="paragrafo-ajustado">
+                    In addition to that, I worked on several small projects made as <span class="destaque">experiments</span> or for <span class="cor-secundaria destaque">university coursework</span>.
+                </p>
+                
+                <p class="paragrafo-ajustado">
+                    One example is an <span class="cor-secundaria destaque">unnamed game</span> developed to demonstrate <span class="destaque">AI concepts</span>. It includes features like:
+                </p>
+                
+                <ul class="lista-customizada">
+                    <li><span class="destaque">Pathfinding algorithms</span></li>
+                    <li><span class="destaque">Autonomous behaviors</span></li>
+                    <li><span class="destaque">Decision trees</span></li>
+                    <li><span class="destaque">Outcome simulation</span></li>
+                </ul>
+                
+                <img src="Imagens/JogoSemNome.png" alt="Unnamed AI Game Screenshot" class="imagem-destaque">
+                
+                <p class="paragrafo-ajustado">
+                    The player has no direct control. The only available interaction is choosing a <span class="destaque">buff</span> when leveling up — all <span class="cor-secundaria destaque">NPCs make their own decisions</span>.
+                </p>
+                
+                <p class="paragrafo-ajustado">
+                    If you’d like to explore the code or use it as a starting point, the project is available on my <span class="destaque">GitHub</span>.
+                </p>                
+            </div>
+            
+            <div id="aba3" class="conteudo-aba" style="text-align: center; padding: 2rem; display: none">
+                <h2 class="cor-secundaria destaque" style="font-size: 2rem; margin-bottom: 1rem;">My GitHub</h2>
+                
+                <p style="line-height: 1.6; max-width: 700px; margin: 0 auto;">
+                    I'll be honest — my <span class="destaque cor-secundaria">GitHub</span> isn't the most active place.
+                    Since I work mostly on <span class="destaque cor-secundaria">Roblox projects</span>, which are hosted directly on their own platform,
+                    I don't usually upload much there.
+                </p>
+            
+                <p style="margin-top: 1rem;">
+                    Also, because I usually work solo, I don’t tend to comment my code that much — I just write it for myself and try to keep it clean enough to follow later.
+                </p>
+            
+                <p style="margin-top: 1rem;">
+                    That said, I do have some public stuff up, mostly from <span class="destaque cor-secundaria">university projects</span> or 
+                    experiments with other engines like <span class="destaque cor-secundaria">Godot</span> and some web-related things.
+                </p>
+            
+                <!-- GitHub Logo -->
+                <div style="margin-top: 2rem;">
+                    <a href="https://github.com/Donklii" target="_blank" title="Visit my GitHub profile">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                             alt="GitHub" 
+                             style="width: 90px; transition: transform 0.3s;" 
+                             onmouseover="this.style.transform='scale(1.1)'" 
+                             onmouseout="this.style.transform='scale(1)'">
+                    </a>
+                </div>
+            
+                <p style="margin-top: 1rem; font-style: italic; color: gray;">Click the logo to check it out — if you’re curious!</p>
+            </div>
+            
+        </div>
+        
+        <section id="linguagens" style="margin-bottom: 2%;">
+            <h2 class="cor-secundaria" style="margin-top: 2rem; margin-bottom: 1rem;">
+                💻 Programming Languages:
+            </h2>
+            <ul style="line-height: 2; padding-left: 1.2rem; color: var(--cor-texto-secundario);">
+                <li><span class="destaque">Lua</span></li>
+                <li><span class="destaque">GDScript</span></li>
+                <li><span class="destaque">Java</span></li>
+                <li><span class="destaque">JavaScript</span></li>
+                <li><span class="destaque">C++</span></li>
+            </ul>
+        </section>
+
+        <section id="materias" class="texto">
+            <h2> 
+                📚 Completed Courses: 
+            </h2>
+
+            <ul style="color: var(--cor-texto-secundario);">
+                <li>CALCULUS</li>
+                <li>PROBABILITY</li>
+                <li>PROGRAMMING LANGUAGES</li>
+                <li>FUNDAMENTALS OF DIGITAL GAMES</li>
+                <li>AUDIO AND SOUNDTRACKS FOR GAMES</li>
+                <li>ARTIFICIAL INTELLIGENCE FOR GAMES</li>
+                <li>DIGITAL GAME ENGINES</li>
+                <li>INTRODUCTION TO CLOWNING</li>
+            </ul>
+        </section>
+
+        <section id="trivia">
+            <h2 class="trivia-titulo">Trivia</h2>
+            <hr class="trivia-linha">
+            <ul style="line-height: 2;">
+                <li>My clown name used to be "Chupetinha"</li>
+                <li>I really love the Metal Gear franchise</li>
+                <li>Ryan Gosling Tycoon is the game I've spent the most time working on</li>
+                <li>I have an unfinished technical course in hardware</li>
+                <li>This page is inspired by the barotrauma wiki :> </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
