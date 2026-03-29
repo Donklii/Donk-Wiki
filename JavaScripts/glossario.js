@@ -11,6 +11,17 @@ function toggleGlossario() {
     }
 }
 
+function carouselNav(btn, dir) {
+    var carousel = btn.closest('.carousel');
+    var images = JSON.parse(carousel.dataset.images);
+    var idx = (parseInt(carousel.dataset.index) + dir + images.length) % images.length;
+    carousel.dataset.index = idx;
+    carousel.querySelector('.carousel-img').src = images[idx];
+    carousel.querySelectorAll('.carousel-dot').forEach(function(dot, i) {
+        dot.classList.toggle('active', i === idx);
+    });
+}
+
 function mudarAba(id, botaoClicado) {
     document.querySelectorAll('.conteudo-aba').forEach(div => {
         div.style.display = 'none';

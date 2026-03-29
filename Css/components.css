@@ -1,0 +1,99 @@
+/* =====================
+   Table of Contents
+   ===================== */
+.toc-box {
+  border: 1px solid var(--color-border);
+  background-color: var(--bg-surface-alt);
+  width: 190px;
+  font-size: 0.82rem;
+  margin: 1.2rem 0;
+}
+
+.toc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-border);
+  padding: 0.35rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.toc-list {
+  list-style: decimal;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  margin: 0;
+}
+
+.toc-list li { margin-bottom: 3px; }
+
+.toc-list a {
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.toc-list a:hover {
+  color: #71f0dc;
+  text-decoration: underline;
+}
+
+/* =====================
+   Course groups
+   ===================== */
+.course-group-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  margin: 1.2rem 0 0.4rem;
+  letter-spacing: 0.2px;
+}
+
+.course-list {
+  list-style: disc;
+  padding-left: 1.4rem;
+  line-height: 1.9;
+  margin: 0 0 0.5rem;
+  font-size: 0.93rem;
+  color: var(--color-text);
+}
+
+.course-list .in-progress {
+  font-style: italic;
+  color: #6a8070;
+  font-size: 0.85em;
+}
+
+/* =====================
+   Trivia
+   ===================== */
+.trivia-titulo {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-text);
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.trivia-linha {
+  border: none;
+  border-top: 1px solid var(--color-border-hi);
+  margin: 0.4rem 0 0.9rem;
+}
+
+.trivia-list {
+  list-style: disc;
+  padding-left: 1.4rem;
+  line-height: 2;
+  font-size: 0.93rem;
+}

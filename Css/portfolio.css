@@ -1,43 +1,242 @@
+/* =====================
+   Portfolio tabs
+   ===================== */
 .aba-container {
-    max-width: 900px;
-    margin: 40px auto;
-    border: 1px solid #2b2b2b;
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 8px;
+  margin: 2rem 0;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .abas {
-    display: flex;
-    border-bottom: 2px solid #2b2b2b;
-    margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--bg-surface-alt);
+  border-bottom: 2px solid var(--color-border-hi);
 }
 
 .aba {
-    flex: 1;
-    background: none;
-    border: none;
-    padding: 12px;
-    cursor: pointer;
-    color: #999;
-    font-size: 16px;
-    border-bottom: 3px solid transparent;
-    transition: all 0.2s ease-in-out;
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  color: #5a7060;
+  font-size: 0.88rem;
+  font-family: var(--font-body);
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
 }
 
-.aba:hover {
-    color: #0ff;
+.aba:hover { color: var(--color-muted); }
+
+.aba-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  opacity: 0.75;
 }
 
 .aba.ativa {
-    color: #0ff;
-    border-bottom: 3px solid #0ff;
-    font-weight: bold;
+  color: var(--color-muted);
+  border-bottom-color: var(--color-muted);
+  font-weight: 600;
+  background-color: rgba(159, 212, 186, 0.04);
 }
 
 .conteudo-aba {
-    padding: 20px;
-    background-color: #121212;
-    border-radius: 8px;
-    border: 1px solid #2b2b2b;
+  padding: 1.75rem 2rem;
+  background-color: var(--bg-surface);
+  font-size: 0.94rem;
 }
+
+/* =====================
+   Tab content helpers
+   ===================== */
+.tab-title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--color-muted);
+  border-bottom: none;
+  margin-bottom: 1.25rem;
+}
+
+/* =====================
+   Game cards
+   ===================== */
+.game-card {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.game-card__img {
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  flex-shrink: 0;
+  display: block;
+  max-width: 315px;
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+a:hover .game-card__img,
+.game-card__img:hover { transform: scale(1.02); }
+
+.game-card__meta {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+.game-card__meta li::before {
+  content: "— ";
+  color: var(--color-border-hi);
+}
+
+.play-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.88rem;
+  color: var(--color-muted);
+}
+
+/* =====================
+   Video embeds
+   ===================== */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+  border: 1px solid var(--color-border);
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+/* =====================
+   Inline image (full width)
+   ===================== */
+.inline-img {
+  display: block;
+  margin: 1.25rem 0;
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.35);
+}
+
+.img-center {
+  text-align: center;
+  margin: 1.75rem 0;
+}
+
+.img-center img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.img-center img:hover { transform: scale(1.01); }
+
+.img-caption {
+  font-size: 0.82rem;
+  color: #6a8070;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+/* =====================
+   Game card media column (carousel + video stacked)
+   ===================== */
+.game-card__media {
+    flex-shrink: 0;
+    max-width: 315px;
+    width: 100%;
+}
+
+.game-card__media .carousel {
+    max-width: 100%;
+}
+
+.game-card__media .video-embed {
+    margin: 0.75rem 0 0;
+}
+
+/* =====================
+   Image carousel
+   ===================== */
+.carousel {
+    position: relative;
+    flex-shrink: 0;
+    max-width: 315px;
+    width: 100%;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border: none;
+    font-size: 1.6rem;
+    padding: 0.15rem 0.45rem;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 3px;
+    line-height: 1.2;
+    transition: background 0.15s;
+}
+
+.carousel-btn:hover { background: rgba(0, 0, 0, 0.8); }
+
+.carousel-prev { left: 6px; }
+.carousel-next { right: 6px; }
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 0.45rem;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #444;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: background 0.2s;
+}
+
+.carousel-dot.active { background: var(--color-muted); }
+
+/* =====================
+   GitHub tab
+   ===================== */
+.github-tab {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.github-logo {
+  width: 80px;
+  margin-top: 1.75rem;
+  transition: transform 0.25s;
+}
+
+.github-logo:hover { transform: scale(1.1); }
