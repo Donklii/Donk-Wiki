@@ -398,7 +398,14 @@ const TRANSLATIONS = {
    Engine
    ============================================== */
 
-var currentLang = (typeof localStorage !== 'undefined' && localStorage.getItem('lang')) || 'en';
+function detectLang() {
+  const saved = typeof localStorage !== 'undefined' && localStorage.getItem('lang');
+  if (saved) return saved;
+  const browser = (navigator.languages ? navigator.languages[0] : navigator.language) || 'en';
+  return browser.toLowerCase().startsWith('pt') ? 'pt' : 'en';
+}
+
+var currentLang = detectLang();
 
 function applyTranslations(lang) {
   var t = TRANSLATIONS[lang];
