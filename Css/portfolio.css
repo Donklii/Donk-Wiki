@@ -240,3 +240,38 @@ a:hover .game-card__img,
 }
 
 .github-logo:hover { transform: scale(1.1); }
+
+/* =====================
+   Responsive — portfolio
+   ===================== */
+@media (max-width: 768px) {
+  .conteudo-aba {
+    padding: 1.25rem 1rem;
+  }
+
+  .aba {
+    font-size: 0.78rem;
+    padding: 0.5rem 0.4rem;
+  }
+
+  .aba-icon {
+    display: none;
+  }
+
+  .game-card {
+    flex-direction: column;
+  }
+
+  .game-card__img {
+    max-width: 100%;
+  }
+
+  .carousel {
+    max-width: 100%;
+  }
+
+  .game-card__media {
+    max-width: 100%;
+    width: 100%;
+  }
+}
