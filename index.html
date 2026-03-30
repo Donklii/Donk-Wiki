@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="Css/avatar.css">
     <link rel="stylesheet" href="Css/portfolio.css">
     <link rel="stylesheet" href="Css/components.css">
+    <script src="JavaScripts/glossario.js"></script>
+    <script src="JavaScripts/i18n.js"></script>
 </head>
 <body>
 
@@ -227,29 +229,363 @@
             <!-- Portfolio -->
             <div id="portfolio" class="aba-container">
                 <div class="abas">
-                    <button class="aba ativa" data-tab="aba4">
+                    <button class="aba ativa" onclick="mudarAba('aba4', this)">
                         <img class="aba-icon" src="https://cdn.simpleicons.org/unrealengine" alt="">
                         <span data-i18n="tab_unreal">Unreal Engine</span>
                     </button>
-                    <button class="aba" data-tab="aba2">
+                    <button class="aba" onclick="mudarAba('aba2', this)">
                         <img class="aba-icon" src="https://cdn.simpleicons.org/godotengine" alt="">
                         <span data-i18n="tab_godot">Godot</span>
                     </button>
-                    <button class="aba" data-tab="aba1">
+                    <button class="aba" onclick="mudarAba('aba1', this)">
                         <img class="aba-icon" src="https://cdn.simpleicons.org/roblox" alt="">
                         <span data-i18n="tab_roblox">Roblox</span>
                     </button>
-                    <button class="aba" data-tab="aba3">
+                    <button class="aba" onclick="mudarAba('aba3', this)">
                         <img class="aba-icon" src="https://cdn.simpleicons.org/github" alt="">
                         <span data-i18n="tab_github">GitHub</span>
                     </button>
                 </div>
 
-                <!-- Tab content — loaded lazily via fetch (partials/) -->
-                <div class="conteudo-aba" id="aba1" style="display:none"></div>
-                <div class="conteudo-aba" id="aba2" style="display:none"></div>
-                <div class="conteudo-aba" id="aba4"></div>
-                <div class="conteudo-aba" id="aba3" style="display:none"></div>
+                <!-- Roblox -->
+                <div class="conteudo-aba" id="aba1" style="display:none">
+                    <h2 class="tab-title" data-i18n="roblox_title">My Experience with Roblox</h2>
+
+                    <p data-i18n="roblox_intro">
+                        Over the years I've built solid familiarity with <span class="cor-secundaria">Roblox Studio</span> —
+                        my first and favority game engine.
+                    </p>
+
+                    <hr>
+
+                    <h3 data-i18n="roblox_skibidi_h">SKIBIDI TOILETS: OBBY</h3>
+                    <p data-i18n="roblox_skibidi_p">
+                        My <span class="cor-secundaria">first published game</span> on Roblox was this one.
+                        It's… not good. But it got finished — and that is very important.
+                    </p>
+                    <div class="game-card">
+                        <a href="https://www.roblox.com/pt/games/14724944256/Escape-from-the-SKIBIDI-TOILETS-OBBY" target="_blank">
+                            <img class="game-card__img"
+                                 src="https://tr.rbxcdn.com/180DAY-92277e6c165ccb321d636245b5420888/768/432/Image/Webp/noFilter"
+                                 alt="First Roblox Game Screenshot">
+                        </a>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="roblox_skibidi_platform">Platform: <span class="destaque">Roblox</span></li>
+                                <li data-i18n="roblox_skibidi_role">Role: <span class="cor-secundaria">Solo programmer</span></li>
+                                <li data-i18n="roblox_skibidi_genre">Genre: <span class="destaque">Platformer</span></li>
+                            </ul>
+                            <a class="play-link" href="https://www.roblox.com/pt/games/14724944256/Escape-from-the-SKIBIDI-TOILETS-OBBY" target="_blank" data-i18n="roblox_skibidi_play">▶ Play on Roblox</a>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h3 data-i18n="roblox_ryan_h">Ryan Gosling Tycoon</h3>
+                    <p data-i18n="roblox_ryan_p">
+                        A much more ambitious project — coming soon.
+                        The idea is to relive iconic Ryan Gosling movies and stories — be him, literally.
+                    </p>
+
+                    <h4 data-i18n="roblox_ryan_video">Presentation Video</h4>
+                    <div class="video-embed">
+                        <iframe
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=woS4C9GYoIRXTvm3"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <hr>
+
+                    <h3 data-i18n="roblox_morse_h">Morse Code (morse offline!!)</h3>
+                    <p data-i18n="roblox_morse_p">
+                        A game made in <span class="cor-secundaria">4 hours</span> with no purpose whatsoever,
+                        in the middle of the night.
+                    </p>
+                    <div class="game-card">
+                        <a href="https://www.roblox.com/pt/games/105263048806518/Morse-code" target="_blank">
+                            <img class="game-card__img"
+                                 src="https://tr.rbxcdn.com/180DAY-9fc9553fb4ab84a32211f3a9930a5334/768/432/Image/Webp/noFilter"
+                                 alt="Morse Code Screenshot">
+                        </a>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="roblox_morse_platform">Platform: <span class="destaque">Roblox</span></li>
+                                <li data-i18n="roblox_morse_time">Time: <span class="cor-secundaria">4 hours</span></li>
+                                <li data-i18n="roblox_morse_role">Role: <span class="cor-secundaria">Solo Programmer</span></li>
+                            </ul>
+                            <a class="play-link" href="https://www.roblox.com/pt/games/105263048806518/Morse-code" target="_blank" data-i18n="roblox_morse_play">▶ Play on Roblox</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Godot -->
+                <div class="conteudo-aba" id="aba2" style="display:none">
+                    <h2 class="tab-title" data-i18n="godot_title">My Experience with Godot</h2>
+
+                    <p data-i18n="godot_intro">
+                        I've spent around <span class="cor-secundaria">500 hours</span> in the
+                        <span class="cor-secundaria">Godot Engine</span>, mostly focused on
+                        <span class="destaque">2D programming</span> and <span class="destaque">audio implementation</span>.
+                    </p>
+
+                    <hr>
+
+                    <h3 data-i18n="godot_func_h">Funcionário do Dia</h3>
+                    <p data-i18n="godot_func_p">
+                        A <span class="cor-secundaria">memory game</span> inspired by old browser games — made in only 3 hours
+                        for a game jam, where I served as <span class="destaque">lead programmer</span>.
+                        You play as an overworked office employee trying to survive the day.
+                    </p>
+                    <div class="game-card">
+                        <div class="carousel"
+                             data-images='["https://img.itch.zone/aW1nLzIxMDU3MjkxLnBuZw==/315x250%23c/l3uJ9J.png","Imagens/Funcionario do dia gameplay.png","Imagens/Funcionario do dia gameplay 1.png"]'
+                             data-index="0">
+                            <button class="carousel-btn carousel-prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                            <a href="https://cynder71.itch.io/funcionrio-do-dia" target="_blank">
+                                <img class="game-card__img carousel-img"
+                                     src="https://img.itch.zone/aW1nLzIxMDU3MjkxLnBuZw==/315x250%23c/l3uJ9J.png"
+                                     alt="Funcionário do Dia Screenshot">
+                            </a>
+                            <button class="carousel-btn carousel-next" onclick="carouselNav(this,1)">&#8250;</button>
+                            <div class="carousel-dots">
+                                <span class="carousel-dot active"></span>
+                                <span class="carousel-dot"></span>
+                                <span class="carousel-dot"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="godot_func_engine">Engine: <span class="destaque">Godot</span></li>
+                                <li data-i18n="godot_func_jam">Jam: <span class="destaque">3 hours</span></li>
+                                <li data-i18n="godot_func_role">Role: <span class="cor-secundaria">Lead Programmer</span></li>
+                                <li data-i18n="godot_func_genre">Genre: <span class="destaque">Puzzle</span></li>
+                                <li data-i18n="godot_func_theme">Jam theme: <span class="cor-secundaria">Air Conditioning</span></li>
+                            </ul>
+                            <a class="play-link" href="https://cynder71.itch.io/funcionrio-do-dia" target="_blank" data-i18n="godot_func_play">▶ Play on itch.io</a>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h3 data-i18n="godot_polter_h">Poltermafia</h3>
+                    <p data-i18n="godot_polter_p">
+                        A puzzle game made in one week for a game jam, built around the theme of
+                        <span class="destaque">possession</span>. I was the <span class="cor-secundaria">solo programmer</span>.
+                    </p>
+                    <div class="game-card">
+                        <div class="carousel"
+                             data-images='["Imagens/Poltermafia Menu.png","Imagens/Poltermafia gameplay.png"]'
+                             data-index="0">
+                            <button class="carousel-btn carousel-prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                            <img class="game-card__img carousel-img"
+                                 src="Imagens/Poltermafia Menu.png"
+                                 alt="Poltermafia Screenshot">
+                            <button class="carousel-btn carousel-next" onclick="carouselNav(this,1)">&#8250;</button>
+                            <div class="carousel-dots">
+                                <span class="carousel-dot active"></span>
+                                <span class="carousel-dot"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="godot_polter_engine">Engine: <span class="destaque">Godot</span></li>
+                                <li data-i18n="godot_polter_jam">Jam: <span class="destaque">1 week</span></li>
+                                <li data-i18n="godot_polter_role">Role: <span class="cor-secundaria">Solo Programmer</span></li>
+                                <li data-i18n="godot_polter_genre">Genre: <span class="destaque">Puzzle</span></li>
+                                <li data-i18n="godot_polter_theme">Jam theme: <span class="cor-secundaria">Possession</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h3 data-i18n="godot_arce_h">Arce Armorum</h3>
+                    <p data-i18n="godot_arce_p1">
+                        A discontinued demo following a wizard searching for his magical staff, fighting living weapons
+                        that guard a castle. I handled all <span class="destaque">programming</span> and
+                        <span class="destaque">audio direction</span>; visuals were done by another team member.
+                    </p>
+                    <p data-i18n="godot_arce_p2">The published version is <span class="cor-secundaria">not the latest build</span> — several improvements were made afterward but never released.</p>
+                    <div class="game-card">
+                        <div class="game-card__media">
+                            <div class="carousel"
+                                 data-images='["https://img.itch.zone/aW1hZ2UvMjk2MDI2NC8xNzcwOTg5NS5qcGc=/347x500/36bvMI.jpg","https://img.itch.zone/aW1hZ2UvMjk2MDI2NC8xNzcwOTg5Ni5qcGc=/347x500/Nwemw3.jpg","https://img.itch.zone/aW1hZ2UvMjk2MDI2NC8xNzcwOTg5OC5qcGc=/347x500/%2FDv4iQ.jpg"]'
+                                 data-index="0">
+                                <button class="carousel-btn carousel-prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                                <a href="https://astospam.itch.io/arcearmorum" target="_blank">
+                                    <img class="game-card__img carousel-img"
+                                         src="https://img.itch.zone/aW1hZ2UvMjk2MDI2NC8xNzcwOTg5NS5qcGc=/347x500/36bvMI.jpg"
+                                         alt="Arce Armorum Screenshot">
+                                </a>
+                                <button class="carousel-btn carousel-next" onclick="carouselNav(this,1)">&#8250;</button>
+                                <div class="carousel-dots">
+                                    <span class="carousel-dot active"></span>
+                                    <span class="carousel-dot"></span>
+                                    <span class="carousel-dot"></span>
+                                </div>
+                            </div>
+                            <div class="video-embed">
+                                <iframe
+                                    src="https://player.vimeo.com/video/1007499373?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                    frameborder="0"
+                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                    title="Arce Armorum Demo Trailer">
+                                </iframe>
+                            </div>
+                            <p class="img-caption" data-i18n="godot_arce_caption">Trailer produced by a team member who also composed the <span class="destaque">music</span>.</p>
+                        </div>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="godot_arce_engine">Engine: <span class="destaque">Godot</span></li>
+                                <li data-i18n="godot_arce_genre">Genre: <span class="destaque">Metroidvania</span></li>
+                                <li data-i18n="godot_arce_role">Role: <span class="cor-secundaria">Programmer &amp; Audio Director</span></li>
+                                <li data-i18n="godot_arce_status">Status: <span class="cor-secundaria">Discontinued Demo</span></li>
+                            </ul>
+                            <a class="play-link" href="https://astospam.itch.io/arcearmorum" target="_blank" data-i18n="godot_arce_play">▶ View on itch.io</a>
+                        </div>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+
+                    <hr>
+
+                    <h3 data-i18n="godot_other_h">Other Projects</h3>
+                    <p data-i18n="godot_other_p1">
+                        I also worked on smaller projects as <span class="destaque">experiments</span> or for
+                        <span class="cor-secundaria">university coursework</span>.
+                    </p>
+                    <p data-i18n="godot_other_p2">
+                        One example is an <span class="cor-secundaria">unnamed game</span> built to demonstrate
+                        <span class="destaque">AI concepts</span>, featuring:
+                    </p>
+                    <ul class="skills-list">
+                        <li data-i18n="godot_other_li1"><span class="destaque">Pathfinding algorithms</span></li>
+                        <li data-i18n="godot_other_li2"><span class="destaque">Autonomous behaviors</span></li>
+                        <li data-i18n="godot_other_li3"><span class="destaque">Decision trees</span></li>
+                        <li data-i18n="godot_other_li4"><span class="destaque">Outcome simulation</span></li>
+                    </ul>
+
+                    <img class="inline-img" src="Imagens/JogoSemNome.png" alt="Unnamed AI Game Screenshot">
+
+                    <p data-i18n="godot_other_p3">
+                        The player has no direct control — the only interaction is choosing a
+                        <span class="destaque">buff</span> when leveling up; all
+                        <span class="cor-secundaria">NPCs make their own decisions</span>.
+                        The project is available on my <span class="destaque">GitHub</span>.
+                    </p>
+                </div>
+
+                <!-- Unreal Engine -->
+                <div class="conteudo-aba" id="aba4">
+                    <h2 class="tab-title" data-i18n="unreal_title">My Experience with Unreal Engine</h2>
+
+                    <p data-i18n="unreal_intro">
+                        My Unreal Engine work has focused on <span class="cor-secundaria">3D development</span>,
+                        including jam projects where I operated as <span class="destaque">a solo or lead programmer.</span>
+                    </p>
+
+                    <hr>
+
+                    <h3 data-i18n="unreal_lobo_h">Lobo Tomia</h3>
+                    <p data-i18n="unreal_lobo_p">
+                        A puzzle/exploration game with a visual aesthetic inspired by
+                        <span class="cor-secundaria">This War of Mine</span>, made in one week for a game jam.
+                        I was the <span class="destaque">lead programmer</span>, responsible for core systems and
+                        the gameplay loop.
+                    </p>
+                    <div class="game-card">
+                        <div class="carousel"
+                             data-images='["https://img.itch.zone/aW1nLzI0NjI4MzQ0LmpwZWc=/347x500/Ot70Ym.jpeg","Imagens/LOBO tomia Menu.png","Imagens/Lobo tomia gameplay 1.png","Imagens/Lobo tomia gameplay 2.png","Imagens/Lobo tomia gameplay 3.png"]'
+                             data-index="0">
+                            <button class="carousel-btn carousel-prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                            <a href="https://manoivans.itch.io/curioso" target="_blank">
+                                <img class="game-card__img carousel-img"
+                                     src="https://img.itch.zone/aW1nLzI0NjI4MzQ0LmpwZWc=/347x500/Ot70Ym.jpeg"
+                                     alt="Lobo Tomia Screenshot">
+                            </a>
+                            <button class="carousel-btn carousel-next" onclick="carouselNav(this,1)">&#8250;</button>
+                            <div class="carousel-dots">
+                                <span class="carousel-dot active"></span>
+                                <span class="carousel-dot"></span>
+                                <span class="carousel-dot"></span>
+                                <span class="carousel-dot"></span>
+                                <span class="carousel-dot"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="unreal_lobo_engine">Engine: <span class="destaque">Unreal Engine</span></li>
+                                <li data-i18n="unreal_lobo_jam">Jam: <span class="destaque">1 week</span></li>
+                                <li data-i18n="unreal_lobo_role">Role: <span class="cor-secundaria">Lead Programmer</span></li>
+                                <li data-i18n="unreal_lobo_aesthetic">Aesthetic: <span class="destaque">This War of Mine</span>-inspired</li>
+                                <li data-i18n="unreal_lobo_genre">Genre: <span class="destaque">Puzzle</span></li>
+                                <li data-i18n="unreal_lobo_theme">Jam theme: <span class="cor-secundaria">Curiosity</span></li>
+                            </ul>
+                            <a class="play-link" href="https://manoivans.itch.io/curioso" target="_blank" data-i18n="unreal_lobo_play">▶ View on itch.io</a>
+                            <a class="play-link" href="https://drive.google.com/drive/folders/19tQ8nBTlCxDYN8782nGzo_Lo-6YodwWl?usp=drive_link" target="_blank" data-i18n="unreal_lobo_drive">📁 Latest version (Google Drive)</a>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h3 data-i18n="unreal_ossuario_h">Ossuário</h3>
+                    <p data-i18n="unreal_ossuario_p">
+                        A <span class="cor-secundaria">VR puzzle game</span> made in one week for a game jam,
+                        built entirely in <span class="destaque">Unreal Engine</span>. I was the
+                        <span class="destaque">solo programmer</span>, responsible for VR interactions and
+                        puzzle mechanics.
+                    </p>
+                    <div class="game-card">
+                        <a href="https://itch.io/jam/motor-jam/rate/3614179" target="_blank">
+                            <img class="game-card__img"
+                                 src="https://img.itch.zone/aW1nLzIxNTEyMjA4LnBuZw==/315x250%23c/2jQLEU.png"
+                                 alt="O Ossuário Screenshot">
+                        </a>
+                        <div>
+                            <ul class="game-card__meta">
+                                <li data-i18n="unreal_ossuario_engine">Engine: <span class="destaque">Unreal Engine</span></li>
+                                <li data-i18n="unreal_ossuario_jam">Jam: <span class="destaque">1 week</span></li>
+                                <li data-i18n="unreal_ossuario_role">Role: <span class="cor-secundaria">Solo Programmer</span></li>
+                                <li data-i18n="unreal_ossuario_platform">Platform: <span class="destaque">VR</span></li>
+                                <li data-i18n="unreal_ossuario_genre">Genre: <span class="destaque">Puzzle</span></li>
+                            </ul>
+                            <a class="play-link" href="https://itch.io/jam/motor-jam/rate/3614179" target="_blank" data-i18n="unreal_ossuario_play">▶ View on itch.io</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub -->
+                <div class="conteudo-aba" id="aba3" style="display:none">
+                    <div class="github-tab">
+                        <h2 class="tab-title" data-i18n="github_title">My GitHub</h2>
+
+                        <p data-i18n="github_p1">
+                            My <span class="cor-secundaria">GitHub</span> isn't the most active place.
+                            Since I work mostly on <span class="cor-secundaria">Roblox projects</span> —
+                            which are hosted on their own platform — I don't usually push much there.
+                        </p>
+                        <p data-i18n="github_p2">
+                            Because I usually work solo, I tend to write code for myself and keep it clean
+                            enough to follow later rather than heavily commenting it.
+                        </p>
+                        <p data-i18n="github_p3">
+                            That said, there is some public content: mostly
+                            <span class="cor-secundaria">university projects</span> and experiments
+                            with <span class="cor-secundaria">Godot</span> and web technologies.
+                        </p>
+
+                        <a href="https://github.com/Donklii" target="_blank" title="Visit my GitHub profile">
+                            <img class="github-logo"
+                                 src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                 alt="GitHub">
+                        </a>
+                        <p class="img-caption" data-i18n="github_caption">Click the logo to check it out — if you're curious!</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Languages -->
@@ -315,7 +651,5 @@
         <div style="clear:both"></div>
     </div>
 
-    <script src="JavaScripts/i18n.js"></script>
-    <script src="JavaScripts/glossario.js"></script>
 </body>
 </html>
