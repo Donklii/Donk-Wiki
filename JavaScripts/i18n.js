@@ -181,6 +181,9 @@ const TRANSLATIONS = {
     course_7:               "Computer Graphics and Rendering",
     course_8:               `Level Design For Games <span class="in-progress">(in progress)</span>`,
     course_9:               "Introduction to Clowning",
+    cert_label:             "Certificate of Completion",
+    cert_open:              "open ↗",
+    cert_caption:           "Jogos Digitais · PES / UFRN",
 
     /* Trivia section */
     section_trivia:         "Trivia",
@@ -192,7 +195,7 @@ const TRANSLATIONS = {
 
     /* Footer */
     footer_edited:          "This page was last edited on 29 March 2026.",
-    footer_rights:          "Content by Donklii. All rights reserved.",
+    footer_rights:          "© Donklii. All rights reserved.",
     footer_about:           "About",
     footer_contact:         "Contact",
   },
@@ -377,6 +380,9 @@ const TRANSLATIONS = {
     course_7:               "Computação Gráfica e Renderização",
     course_8:               `Level Design para Jogos <span class="in-progress">(em andamento)</span>`,
     course_9:               "Introdução à Palhaçaria",
+    cert_label:             "Certificado de Conclusão",
+    cert_open:              "abrir ↗",
+    cert_caption:           "Jogos Digitais · PES / UFRN",
 
     /* Trivia section */
     section_trivia:         "Curiosidades",
@@ -388,7 +394,7 @@ const TRANSLATIONS = {
 
     /* Footer */
     footer_edited:          "Esta página foi editada pela última vez em 29 de março de 2026.",
-    footer_rights:          "Conteúdo por Donklii. Todos os direitos reservados.",
+    footer_rights:          "© Donklii. Todos os direitos reservados.",
     footer_about:           "Sobre",
     footer_contact:         "Contato",
   }

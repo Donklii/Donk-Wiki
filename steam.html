@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steam — Donk Wiki</title>
+    <link rel="icon" href="Imagens/Donklii.jpg" type="image/jpeg">
     <link rel="stylesheet" href="Css/styles.css">
     <link rel="stylesheet" href="Css/avatar.css">
     <link rel="stylesheet" href="Css/components.css">
+    <script src="JavaScripts/i18n.js"></script>
     <style>
         /* =====================
            Steam page styles
@@ -134,8 +136,9 @@
         .top-games-table tr:last-child td { border-bottom: none; }
         .top-games-table td:first-child { color: var(--color-muted); width: 2rem; text-align: center; }
         .game-icon {
-            width: 32px;
-            height: 32px;
+            width: 80px;
+            height: 30px;
+            object-fit: cover;
             border-radius: 3px;
             vertical-align: middle;
             margin-right: 0.5rem;
@@ -159,82 +162,16 @@
         .steam-error { color: #ff8888; }
     </style>
 </head>
-<body>
+<body data-last-edited="5 April 2026">
 
     <!-- Left sidebar panel -->
-    <div id="mw-panel">
-        <div id="p-logo">
-            <a href="index.html" style="text-decoration:none">
-                <span class="wiki-logo-text">Donk<br>Wiki</span>
-            </a>
-        </div>
+    <div id="mw-panel"></div>
 
-        <div class="portal" id="p-navigation">
-            <h3>Navigation</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="index.html">Main Page</a></li>
-                    <li><a href="index.html#Experiências">Experiences</a></li>
-                    <li><a href="index.html#portfolio">Portfolio</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="portal" id="p-profile">
-            <h3>Profile</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="index.html#linguagens">Languages</a></li>
-                    <li><a href="index.html#materias">Courses</a></li>
-                    <li><a href="index.html#trivia">Trivia</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="portal" id="p-contact">
-            <h3>Contact</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-                    <li><a href="mailto:donklii13@gmail.com">Email</a></li>
-                    <li><a href="https://twitter.com/Donklii" target="_blank">@Donklii</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <!-- Sidebar overlay (mobile) -->
+    <div id="sidebar-overlay"></div>
 
     <!-- Top navigation head -->
-    <div id="mw-head">
-        <div id="p-personal">
-            <ul>
-                <li><a href="mailto:donklii13@gmail.com">donklii13@gmail.com</a></li>
-                <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
-        <div id="left-navigation">
-            <div id="p-namespaces">
-                <ul>
-                    <li><a href="index.html">Main Page</a></li>
-                    <li class="selected">
-                        <img src="https://cdn.simpleicons.org/steam/9fd4ba" alt="" style="width:13px;height:13px;vertical-align:middle;margin-right:4px;opacity:0.85">
-                        Steam
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="right-navigation">
-            <div id="p-views">
-                <ul>
-                    <li class="selected"><a href="#">Read</a></li>
-                </ul>
-            </div>
-            <div id="p-search">
-                <form onsubmit="return false;">
-                    <input type="search" placeholder="Search Donk Wiki" aria-label="Search Donk Wiki">
-                </form>
-            </div>
-        </div>
-    </div>
+    <div id="mw-head"></div>
 
     <!-- Main content -->
     <div id="content" class="mw-body">
@@ -250,18 +187,10 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer" role="contentinfo">
-        <ul id="footer-info">
-            <li>Content by Donklii. All rights reserved.</li>
-        </ul>
-        <ul id="footer-places">
-            <li><a href="index.html">About</a></li>
-            <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-            <li><a href="mailto:donklii13@gmail.com">Contact</a></li>
-        </ul>
-        <div style="clear:both"></div>
-    </div>
+    <div id="footer" role="contentinfo"></div>
 
+    <script src="JavaScripts/glossario.js"></script>
+    <script src="JavaScripts/layout.js"></script>
     <script>
     (function () {
         var STEAM_ICON = 'https://cdn.simpleicons.org/steam/9fd4ba';

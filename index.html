@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donklii — Donk Wiki</title>
+    <link rel="icon" href="Imagens/Donklii.jpg" type="image/jpeg">
     <link rel="stylesheet" href="Css/styles.css">
     <link rel="stylesheet" href="Css/avatar.css">
     <link rel="stylesheet" href="Css/portfolio.css">
@@ -11,96 +12,16 @@
     <script src="JavaScripts/glossario.js"></script>
     <script src="JavaScripts/i18n.js"></script>
 </head>
-<body>
+<body data-last-edited="29 March 2026">
 
     <!-- Left sidebar panel -->
-    <div id="mw-panel">
-        <div id="p-logo">
-            <span class="wiki-logo-text">Donk<br>Wiki</span>
-        </div>
-
-        <div class="portal" id="p-navigation">
-            <h3 data-i18n="nav_title_navigation">Navigation</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="#top" data-i18n="nav_main_page">Main Page</a></li>
-                    <li><a href="#Experiências" data-i18n="nav_experiences">Experiences</a></li>
-                    <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="portal" id="p-profile">
-            <h3 data-i18n="nav_title_profile">Profile</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="#linguagens" data-i18n="nav_languages">Languages</a></li>
-                    <li><a href="#materias" data-i18n="nav_courses">Courses</a></li>
-                    <li><a href="#trivia" data-i18n="nav_trivia">Trivia</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="portal" id="p-contact">
-            <h3 data-i18n="nav_title_contact">Contact</h3>
-            <div class="body">
-                <ul>
-                    <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-                    <li><a href="mailto:donklii13@gmail.com">Email</a></li>
-                    <li><a href="https://twitter.com/Donklii" target="_blank">@Donklii</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div id="mw-panel"></div>
 
     <!-- Sidebar overlay (mobile) -->
-    <div id="sidebar-overlay" onclick="closeSidebar()"></div>
+    <div id="sidebar-overlay"></div>
 
     <!-- Top navigation head -->
-    <div id="mw-head">
-        <button id="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle navigation">&#9776;</button>
-        <div id="p-personal">
-            <ul>
-                <li><a href="mailto:donklii13@gmail.com">donklii13@gmail.com</a></li>
-                <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
-        <div id="left-navigation">
-            <div id="p-namespaces">
-                <ul>
-                    <li class="selected"><a href="index.html" data-i18n="tab_main_page">Main Page</a></li>
-                    <li><a href="#" data-i18n="tab_talk">Talk</a></li>
-                    <li>
-                        <a href="steam.html">
-                            <img src="https://cdn.simpleicons.org/steam/9fd4ba" alt="" style="width:13px;height:13px;vertical-align:middle;margin-right:4px;opacity:0.85">Steam
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="right-navigation">
-            <div id="p-views">
-                <ul>
-                    <li class="selected"><a href="#" data-i18n="tab_read">Read</a></li>
-                    <li><a href="#" data-i18n="tab_view_source">View source</a></li>
-                    <li><a href="#" data-i18n="tab_view_history">View history</a></li>
-                </ul>
-            </div>
-            <div id="p-search">
-                <form onsubmit="doSearch(); return false;">
-                    <input type="search" id="searchInput"
-                           data-i18n-placeholder="search_placeholder"
-                           placeholder="Search Donk Wiki"
-                           aria-label="Search Donk Wiki">
-                    <div id="search-nav-buttons" style="display:none">
-                        <button type="button" onclick="prevResult()" title="Anterior">&#8593;</button>
-                        <button type="button" onclick="nextResult()" title="Próximo">&#8595;</button>
-                    </div>
-                </form>
-            </div>
-            <button id="lang-toggle" onclick="toggleLanguage()" title="Switch language">PT</button>
-        </div>
-    </div>
+    <div id="mw-head"></div>
 
     <!-- Main content -->
     <div id="content" class="mw-body">
@@ -171,7 +92,7 @@
                 <aside class="avatar">
                     <div class="avatar-title">Donklii</div>
 
-                    <img src="https://pbs.twimg.com/profile_images/1708965826345263104/YGhHsi60_400x400.jpg" alt="Donklii">
+                    <img src="Imagens/Donklii.jpg" alt="Donklii">
 
                     <div class="avatar-title" data-i18n="avatar_title_bio">Biography</div>
 
@@ -300,11 +221,22 @@
                     <li data-i18n="course_9">Introduction to Clowning</li>
                 </ul>
 
-                <iframe
-                    class="certificate-embed"
-                    src="CERTIFICADO-JOGOS%20DIGITAIS.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
-                    title="Certificado — Jogos Digitais">
-                </iframe>
+                <div class="certificate-card">
+                    <div class="certificate-header">
+                        <span class="certificate-label" data-i18n="cert_label">Certificate of Completion</span>
+                        <a class="certificate-open"
+                           href="CERTIFICADO-JOGOS%20DIGITAIS.pdf"
+                           target="_blank"
+                           rel="noopener"
+                           data-i18n="cert_open">open ↗</a>
+                    </div>
+                    <iframe
+                        class="certificate-embed"
+                        src="CERTIFICADO-JOGOS%20DIGITAIS.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+                        title="Certificado — Jogos Digitais">
+                    </iframe>
+                    <p class="certificate-caption" data-i18n="cert_caption">Jogos Digitais · Alura</p>
+                </div>
             </section>
 
             <!-- Trivia -->
@@ -324,20 +256,10 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer" role="contentinfo">
-        <ul id="footer-info">
-            <li data-i18n="footer_edited">This page was last edited on 29 March 2026.</li>
-            <li data-i18n="footer_rights">Content by Donklii. All rights reserved.</li>
-        </ul>
-        <ul id="footer-places">
-            <li><a href="#" data-i18n="footer_about">About</a></li>
-            <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
-            <li><a href="mailto:donklii13@gmail.com" data-i18n="footer_contact">Contact</a></li>
-        </ul>
-        <div style="clear:both"></div>
-    </div>
+    <div id="footer" role="contentinfo"></div>
 
     <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="JavaScripts/layout.js"></script>
     <script src="JavaScripts/sections.js"></script>
     <script src="JavaScripts/search.js"></script>
 </body>

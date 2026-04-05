@@ -1,0 +1,42 @@
+<button id="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle navigation">&#9776;</button>
+<div id="p-personal">
+    <ul>
+        <li><a href="mailto:donklii13@gmail.com">donklii13@gmail.com</a></li>
+        <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
+    </ul>
+</div>
+<div id="left-navigation">
+    <div id="p-namespaces">
+        <ul>
+            <li><a href="index.html" data-i18n="tab_main_page">Main Page</a></li>
+            <li><a href="talk.html" data-i18n="tab_talk">Talk</a></li>
+            <li>
+                <a href="steam.html">
+                    <img src="https://cdn.simpleicons.org/steam/9fd4ba" alt="" style="width:13px;height:13px;vertical-align:middle;margin-right:4px;opacity:0.85">Steam
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="right-navigation">
+    <div id="p-views">
+        <ul>
+            <li class="selected"><a href="#" data-i18n="tab_read">Read</a></li>
+            <li><a href="#" data-i18n="tab_view_source">View source</a></li>
+            <li><a href="https://github.com/Donklii/Donk-Wiki/commits/main/" target="_blank" data-i18n="tab_view_history">View history</a></li>
+        </ul>
+    </div>
+    <div id="p-search">
+        <form onsubmit="if(typeof doSearch==='function')doSearch(); return false;">
+            <input type="search" id="searchInput"
+                   data-i18n-placeholder="search_placeholder"
+                   placeholder="Search Donk Wiki"
+                   aria-label="Search Donk Wiki">
+            <div id="search-nav-buttons" style="display:none">
+                <button type="button" onclick="if(typeof prevResult==='function')prevResult()" title="Anterior">&#8593;</button>
+                <button type="button" onclick="if(typeof nextResult==='function')nextResult()" title="Próximo">&#8595;</button>
+            </div>
+        </form>
+    </div>
+    <button id="lang-toggle" onclick="if(typeof toggleLanguage==='function')toggleLanguage()" title="Switch language">PT</button>
+</div>
