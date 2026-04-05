@@ -1,19 +1,252 @@
 {
   "summary": {
-    "personaname": "Donklii",
-    "avatarfull": "",
-    "personastate": 0,
-    "profileurl": "https://steamcommunity.com/id/donklii/",
-    "lastlogoff": 0
+    "steamid": "76561198120587347",
+    "communityvisibilitystate": 3,
+    "profilestate": 1,
+    "personaname": "Donk",
+    "commentpermission": 1,
+    "profileurl": "https://steamcommunity.com/id/donk51/",
+    "avatar": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034.jpg",
+    "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
+    "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
+    "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
+    "lastlogoff": 1775366426,
+    "personastate": 1,
+    "realname": "Donk Lii",
+    "primaryclanid": "103582791465667931",
+    "timecreated": 1388190424,
+    "personastateflags": 0,
+    "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 0,
-    "games": []
+    "total_count": 12,
+    "games": [
+      {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 623,
+        "playtime_forever": 21805,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 21805,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1422450,
+        "name": "Deadlock",
+        "playtime_2weeks": 588,
+        "playtime_forever": 6165,
+        "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
+        "playtime_windows_forever": 6165,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 250820,
+        "name": "SteamVR",
+        "playtime_2weeks": 235,
+        "playtime_forever": 12764,
+        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
+        "playtime_windows_forever": 12764,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1313140,
+        "name": "Cult of the Lamb",
+        "playtime_2weeks": 232,
+        "playtime_forever": 1670,
+        "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
+        "playtime_windows_forever": 1670,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 578620,
+        "name": "GORN",
+        "playtime_2weeks": 195,
+        "playtime_forever": 848,
+        "img_icon_url": "a9e8c74c0af738494192219e5d2ad1ab8b7b6f73",
+        "playtime_windows_forever": 848,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 2357570,
+        "name": "Overwatch®",
+        "playtime_2weeks": 192,
+        "playtime_forever": 2979,
+        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
+        "playtime_windows_forever": 2979,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      }
+    ]
   },
   "owned": {
-    "game_count": 0,
-    "total_playtime_minutes": 0,
-    "top_played": []
+    "game_count": 188,
+    "total_playtime_minutes": 549464,
+    "top_played": [
+      {
+        "appid": 271590,
+        "name": "Grand Theft Auto V Legacy",
+        "playtime_forever": 57589,
+        "img_icon_url": "1e72f87eb927fa1485e68aefaff23c7fd7178251",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 20445,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1769839502,
+        "content_descriptorids": [
+          5
+        ],
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 440,
+        "name": "Team Fortress 2",
+        "playtime_forever": 51442,
+        "img_icon_url": "f568912870a4684f9ec76277a1a404dda6bab213",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 3292,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1761892268,
+        "has_leaderboards": true,
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 381210,
+        "name": "Dead by Daylight",
+        "playtime_forever": 44109,
+        "img_icon_url": "aa152097a700fd6f4707397ce41794ea30874790",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 44022,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1734884363,
+        "content_descriptorids": [
+          2,
+          5
+        ],
+        "playtime_disconnected": 15
+      },
+      {
+        "appid": 730,
+        "name": "Counter-Strike 2",
+        "playtime_forever": 42374,
+        "img_icon_url": "8dbc71957312bbd3baea65848b545be9eae2a355",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 2228,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1761968301,
+        "content_descriptorids": [
+          2,
+          5
+        ],
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 570,
+        "name": "Dota 2",
+        "playtime_2weeks": 177,
+        "playtime_forever": 26631,
+        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
+        "playtime_windows_forever": 9663,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1775366116,
+        "content_descriptorids": [
+          5
+        ],
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 623,
+        "playtime_forever": 21805,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 21805,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1775345442,
+        "playtime_disconnected": 3303
+      },
+      {
+        "appid": 457140,
+        "name": "Oxygen Not Included",
+        "playtime_forever": 20559,
+        "img_icon_url": "d37534163ebac8351e0bda0bf30f8f2174c921b6",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 20559,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1771032440,
+        "playtime_disconnected": 150
+      },
+      {
+        "appid": 218620,
+        "name": "PAYDAY 2",
+        "playtime_forever": 19974,
+        "img_icon_url": "a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 4860,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1749878642,
+        "content_descriptorids": [
+          2,
+          5
+        ],
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 322330,
+        "name": "Don't Starve Together",
+        "playtime_forever": 19944,
+        "img_icon_url": "a80aa6cff8eebc1cbc18c367d9ab063e1553b0ee",
+        "playtime_windows_forever": 14401,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1752807279,
+        "playtime_disconnected": 0
+      },
+      {
+        "appid": 292030,
+        "name": "The Witcher 3: Wild Hunt",
+        "playtime_forever": 16625,
+        "img_icon_url": "78d0ff98b67851f24539cdf2402cf147679134f4",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 1406,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 1582756982,
+        "content_descriptorids": [
+          1,
+          5
+        ],
+        "playtime_disconnected": 0
+      }
+    ]
   },
-  "updated_at": null
+  "updated_at": "2026-04-05T19:06:49Z"
 }
