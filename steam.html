@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam — Donk Wiki</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/avatar.css">
+    <link rel="stylesheet" href="Css/components.css">
+    <style>
+        /* =====================
+           Steam page styles
+           ===================== */
+        .steam-profile-card {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        .steam-avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 4px;
+            border: 2px solid var(--color-border-hi);
+            flex-shrink: 0;
+            background: var(--bg-page);
+        }
+        .steam-profile-info h2 {
+            border: none;
+            margin: 0 0 0.2rem;
+            font-size: 1.25rem;
+            padding: 0;
+        }
+        .steam-status {
+            font-size: 0.78rem;
+            padding: 2px 8px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-bottom: 0.3rem;
+        }
+        .steam-status.online  { background: #1a5c2a; color: #6fffaa; }
+        .steam-status.offline { background: #2a2a2a; color: #888; }
+        .steam-status.busy    { background: #5c1a1a; color: #ff8888; }
+        .steam-profile-link {
+            font-size: 0.78rem;
+            color: var(--color-muted);
+        }
+        /* Stats row */
+        .steam-stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+        .steam-stat-box {
+            background: var(--bg-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            padding: 0.8rem 1rem;
+            text-align: center;
+        }
+        .steam-stat-value {
+            font-size: 1.6rem;
+            font-family: var(--font-heading);
+            color: var(--color-accent);
+            line-height: 1.1;
+        }
+        .steam-stat-label {
+            font-size: 0.72rem;
+            color: var(--color-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-top: 0.2rem;
+        }
+        /* Games grid */
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 0.75rem;
+        }
+        .game-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 5px;
+            overflow: hidden;
+            transition: border-color 0.15s;
+        }
+        .game-card:hover { border-color: var(--color-border-hi); }
+        .game-card img {
+            width: 100%;
+            display: block;
+            background: var(--bg-page);
+        }
+        .game-card-body {
+            padding: 0.5rem 0.65rem;
+        }
+        .game-card-name {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.2rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .game-card-time {
+            font-size: 0.72rem;
+            color: var(--color-muted);
+        }
+        /* Top 10 table */
+        .top-games-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+        }
+        .top-games-table th {
+            text-align: left;
+            padding: 0.4rem 0.6rem;
+            color: var(--color-muted);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid var(--color-border-hi);
+        }
+        .top-games-table td {
+            padding: 0.4rem 0.6rem;
+            border-bottom: 1px solid var(--color-border);
+            vertical-align: middle;
+        }
+        .top-games-table tr:last-child td { border-bottom: none; }
+        .top-games-table td:first-child { color: var(--color-muted); width: 2rem; text-align: center; }
+        .game-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 3px;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+        .game-name-cell { color: var(--color-text); }
+        .hours-cell { color: var(--color-accent); text-align: right; }
+        /* Updated notice */
+        .updated-notice {
+            font-size: 0.72rem;
+            color: #4a6050;
+            margin-top: 2rem;
+            text-align: right;
+        }
+        /* Loading / error states */
+        .steam-loading, .steam-error {
+            padding: 2rem;
+            text-align: center;
+            color: var(--color-muted);
+            font-size: 0.9rem;
+        }
+        .steam-error { color: #ff8888; }
+    </style>
+</head>
+<body>
+
+    <!-- Left sidebar panel -->
+    <div id="mw-panel">
+        <div id="p-logo">
+            <a href="index.html" style="text-decoration:none">
+                <span class="wiki-logo-text">Donk<br>Wiki</span>
+            </a>
+        </div>
+
+        <div class="portal" id="p-navigation">
+            <h3>Navigation</h3>
+            <div class="body">
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="index.html#Experiências">Experiences</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="portal" id="p-profile">
+            <h3>Profile</h3>
+            <div class="body">
+                <ul>
+                    <li><a href="index.html#linguagens">Languages</a></li>
+                    <li><a href="index.html#materias">Courses</a></li>
+                    <li><a href="index.html#trivia">Trivia</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="portal" id="p-contact">
+            <h3>Contact</h3>
+            <div class="body">
+                <ul>
+                    <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
+                    <li><a href="mailto:donklii13@gmail.com">Email</a></li>
+                    <li><a href="https://twitter.com/Donklii" target="_blank">@Donklii</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top navigation head -->
+    <div id="mw-head">
+        <div id="p-personal">
+            <ul>
+                <li><a href="mailto:donklii13@gmail.com">donklii13@gmail.com</a></li>
+                <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        <div id="left-navigation">
+            <div id="p-namespaces">
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li class="selected">
+                        <img src="https://cdn.simpleicons.org/steam/9fd4ba" alt="" style="width:13px;height:13px;vertical-align:middle;margin-right:4px;opacity:0.85">
+                        Steam
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="right-navigation">
+            <div id="p-views">
+                <ul>
+                    <li class="selected"><a href="#">Read</a></li>
+                </ul>
+            </div>
+            <div id="p-search">
+                <form onsubmit="return false;">
+                    <input type="search" placeholder="Search Donk Wiki" aria-label="Search Donk Wiki">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div id="content" class="mw-body">
+        <div class="container">
+            <a id="top"></a>
+            <h1 id="firstHeading">Steam</h1>
+            <div id="siteSub">From Donk Wiki</div>
+
+            <div id="steam-root">
+                <div class="steam-loading">Loading Steam data…</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" role="contentinfo">
+        <ul id="footer-info">
+            <li>Content by Donklii. All rights reserved.</li>
+        </ul>
+        <ul id="footer-places">
+            <li><a href="index.html">About</a></li>
+            <li><a href="https://github.com/Donklii" target="_blank">GitHub</a></li>
+            <li><a href="mailto:donklii13@gmail.com">Contact</a></li>
+        </ul>
+        <div style="clear:both"></div>
+    </div>
+
+    <script>
+    (function () {
+        var STEAM_ICON = 'https://cdn.simpleicons.org/steam/9fd4ba';
+
+        function fmtHours(minutes) {
+            var h = Math.round(minutes / 60);
+            if (h >= 1000) return (h / 1000).toFixed(1) + 'k h';
+            return h + ' h';
+        }
+
+        function statusLabel(state) {
+            var states = { 0: 'Offline', 1: 'Online', 2: 'Busy', 3: 'Away', 4: 'Snooze', 5: 'Looking to Trade', 6: 'Looking to Play' };
+            return states[state] || 'Offline';
+        }
+
+        function statusClass(state) {
+            if (state === 1) return 'online';
+            if (state === 2 || state === 3 || state === 4) return 'busy';
+            return 'offline';
+        }
+
+        function gameImg(appid) {
+            return 'https://cdn.akamai.steamstatic.com/steam/apps/' + appid + '/capsule_184x69.jpg';
+        }
+
+        function gameIcon(appid) {
+            return 'https://cdn.akamai.steamstatic.com/steam/apps/' + appid + '/capsule_sm_120.jpg';
+        }
+
+        function render(data) {
+            var s  = data.summary  || {};
+            var r  = data.recent   || {};
+            var o  = data.owned    || {};
+            var recentGames  = r.games      || [];
+            var topGames     = o.top_played || [];
+            var totalMinutes = o.total_playtime_minutes || 0;
+
+            var html = '';
+
+            /* --- Profile card --- */
+            var avatarSrc = s.avatarfull || STEAM_ICON;
+            var stClass   = statusClass(s.personastate);
+            var stLabel   = statusLabel(s.personastate);
+            var profileUrl = s.profileurl || '#';
+            html += '<div class="steam-profile-card">';
+            html += '<img class="steam-avatar" src="' + avatarSrc + '" alt="Steam avatar" onerror="this.src=\'' + STEAM_ICON + '\'">';
+            html += '<div class="steam-profile-info">';
+            html += '<h2>' + (s.personaname || 'Donklii') + '</h2>';
+            html += '<span class="steam-status ' + stClass + '">' + stLabel + '</span><br>';
+            html += '<a class="steam-profile-link" href="' + profileUrl + '" target="_blank">View Steam profile</a>';
+            html += '</div>';
+            html += '</div>';
+
+            /* --- Stats row --- */
+            html += '<div class="steam-stats-row">';
+            html += '<div class="steam-stat-box"><div class="steam-stat-value">' + (o.game_count || '—') + '</div><div class="steam-stat-label">Games owned</div></div>';
+            html += '<div class="steam-stat-box"><div class="steam-stat-value">' + (totalMinutes ? fmtHours(totalMinutes) : '—') + '</div><div class="steam-stat-label">Total hours</div></div>';
+            html += '<div class="steam-stat-box"><div class="steam-stat-value">' + (recentGames.length || '—') + '</div><div class="steam-stat-label">Recent games (2 wks)</div></div>';
+            html += '</div>';
+
+            /* --- Recently played --- */
+            if (recentGames.length) {
+                html += '<h2>Recently Played</h2>';
+                html += '<div class="games-grid">';
+                recentGames.forEach(function (g) {
+                    var hrs = Math.round(g.playtime_2weeks / 60 * 10) / 10;
+                    html += '<div class="game-card">';
+                    html += '<img src="' + gameImg(g.appid) + '" alt="' + g.name + '" loading="lazy" onerror="this.style.display=\'none\'">';
+                    html += '<div class="game-card-body">';
+                    html += '<div class="game-card-name" title="' + g.name + '">' + g.name + '</div>';
+                    html += '<div class="game-card-time">' + hrs + ' h this week</div>';
+                    html += '</div></div>';
+                });
+                html += '</div>';
+            }
+
+            /* --- Top 10 by playtime --- */
+            if (topGames.length) {
+                html += '<h2>Most Played</h2>';
+                html += '<table class="top-games-table">';
+                html += '<thead><tr><th>#</th><th colspan="2">Game</th><th style="text-align:right">Hours</th></tr></thead>';
+                html += '<tbody>';
+                topGames.forEach(function (g, i) {
+                    var hrs = Math.round(g.playtime_forever / 60);
+                    html += '<tr>';
+                    html += '<td>' + (i + 1) + '</td>';
+                    html += '<td><img class="game-icon" src="' + gameIcon(g.appid) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'"></td>';
+                    html += '<td class="game-name-cell">' + g.name + '</td>';
+                    html += '<td class="hours-cell">' + hrs + ' h</td>';
+                    html += '</tr>';
+                });
+                html += '</tbody></table>';
+            }
+
+            /* --- Last updated --- */
+            if (data.updated_at) {
+                var d = new Date(data.updated_at);
+                html += '<p class="updated-notice">Data last updated: ' + d.toUTCString() + '</p>';
+            } else {
+                html += '<p class="updated-notice">Data not yet fetched — run the GitHub Action to populate.</p>';
+            }
+
+            document.getElementById('steam-root').innerHTML = html;
+        }
+
+        fetch('data/steam.json')
+            .then(function (res) {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
+            })
+            .then(render)
+            .catch(function (err) {
+                document.getElementById('steam-root').innerHTML =
+                    '<div class="steam-error">Could not load Steam data.<br><small>' + err.message + '</small></div>';
+            });
+    })();
+    </script>
+</body>
+</html>

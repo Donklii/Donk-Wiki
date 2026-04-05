@@ -133,7 +133,7 @@ a:hover .game-card__img,
 .inline-img {
   display: block;
   margin: 1.25rem 0;
-  max-width: 100%;
+  max-width: 45%;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0,0,0,0.35);
 }

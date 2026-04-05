@@ -68,8 +68,13 @@
         <div id="left-navigation">
             <div id="p-namespaces">
                 <ul>
-                    <li class="selected"><a href="#" data-i18n="tab_main_page">Main Page</a></li>
+                    <li class="selected"><a href="index.html" data-i18n="tab_main_page">Main Page</a></li>
                     <li><a href="#" data-i18n="tab_talk">Talk</a></li>
+                    <li>
+                        <a href="steam.html">
+                            <img src="https://cdn.simpleicons.org/steam/9fd4ba" alt="" style="width:13px;height:13px;vertical-align:middle;margin-right:4px;opacity:0.85">Steam
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -82,12 +87,15 @@
                 </ul>
             </div>
             <div id="p-search">
-                <form onsubmit="return false;">
+                <form onsubmit="doSearch(); return false;">
                     <input type="search" id="searchInput"
                            data-i18n-placeholder="search_placeholder"
                            placeholder="Search Donk Wiki"
                            aria-label="Search Donk Wiki">
-                    <button type="submit">Go</button>
+                    <div id="search-nav-buttons" style="display:none">
+                        <button type="button" onclick="prevResult()" title="Anterior">&#8593;</button>
+                        <button type="button" onclick="nextResult()" title="Próximo">&#8595;</button>
+                    </div>
                 </form>
             </div>
             <button id="lang-toggle" onclick="toggleLanguage()" title="Switch language">PT</button>
@@ -291,6 +299,12 @@
                     <li data-i18n="course_8">Level Design For Games <span class="in-progress">(in progress)</span></li>
                     <li data-i18n="course_9">Introduction to Clowning</li>
                 </ul>
+
+                <iframe
+                    class="certificate-embed"
+                    src="CERTIFICADO-JOGOS%20DIGITAIS.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+                    title="Certificado — Jogos Digitais">
+                </iframe>
             </section>
 
             <!-- Trivia -->
@@ -325,5 +339,6 @@
 
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="JavaScripts/sections.js"></script>
+    <script src="JavaScripts/search.js"></script>
 </body>
 </html>

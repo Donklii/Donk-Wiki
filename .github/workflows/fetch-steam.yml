@@ -1,0 +1,48 @@
+name: Fetch Steam Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Roda todo dia às 06:00 UTC
+  workflow_dispatch:        # Permite disparar manualmente pela aba Actions
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Steam data
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_ID: ${{ secrets.STEAM_ID }}
+        run: |
+          curl -sf "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${STEAM_API_KEY}&steamids=${STEAM_ID}" \
+            -o /tmp/summary.json
+
+          curl -sf "https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&count=6" \
+            -o /tmp/recent.json
+
+          curl -sf "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&include_appinfo=true&include_played_free_games=false" \
+            -o /tmp/owned.json
+
+          jq -s --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '{
+            summary:  .[0].response.players[0],
+            recent:   .[1].response,
+            owned: {
+              game_count: .[2].response.game_count,
+              total_playtime_minutes: ([.[2].response.games[].playtime_forever] | add // 0),
+              top_played: (.[2].response.games | sort_by(-.playtime_forever) | .[0:10])
+            },
+            updated_at: $ts
+          }' /tmp/summary.json /tmp/recent.json /tmp/owned.json > data/steam.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/steam.json
+          git diff --staged --quiet || git commit -m "chore: update Steam data [skip ci]"
+          git push

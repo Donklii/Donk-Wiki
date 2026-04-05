@@ -1,4 +1,90 @@
 /* =====================
+   Search
+   ===================== */
+mark.search-highlight {
+  background-color: #f4d03f;
+  color: #111;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+mark.search-highlight.search-current {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+#search-nav-buttons {
+  display: none;
+  align-items: center;
+  gap: 2px;
+  margin-left: 4px;
+}
+
+#search-nav-buttons button {
+  background: none;
+  border: 1px solid #555;
+  border-radius: 3px;
+  color: inherit;
+  cursor: pointer;
+  padding: 1px 5px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+#search-nav-buttons button:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+#search-float-bar {
+  display: none;
+  position: fixed;
+  top: 3.2rem;
+  right: 1rem;
+  z-index: 9999;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #ddd;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+  pointer-events: auto;
+}
+
+#search-float-bar .search-counter {
+  min-width: 60px;
+  text-align: center;
+}
+
+#search-float-bar button {
+  background: none;
+  border: 1px solid #555;
+  border-radius: 3px;
+  color: #ddd;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+#search-float-bar button:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+#search-float-bar .search-close {
+  border-color: transparent;
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+#search-float-bar .search-close:hover {
+  opacity: 1;
+  border-color: #555;
+}
+
+/* =====================
    Table of Contents
    ===================== */
 .toc-box {
@@ -72,6 +158,16 @@
   font-style: italic;
   color: #6a8070;
   font-size: 0.85em;
+}
+
+.certificate-embed {
+  display: block;
+  width: 60%;
+  height: 380px;
+  margin-top: 1.2rem;
+  border: 1px solid var(--color-border, #a2a9b1);
+  border-radius: 2px;
+  opacity: 0.75;
 }
 
 /* =====================
