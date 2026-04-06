@@ -11,7 +11,7 @@
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
     "lastlogoff": 1775448711,
-    "personastate": 0,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -248,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-06T07:21:58Z"
+  "updated_at": "2026-04-06T10:51:14Z"
 }
