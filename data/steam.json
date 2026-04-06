@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1775366426,
-    "personastate": 1,
+    "lastlogoff": 1775448711,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -35,10 +35,21 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 588,
+        "playtime_2weeks": 382,
         "playtime_forever": 6165,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
         "playtime_windows_forever": 6165,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 570,
+        "name": "Dota 2",
+        "playtime_2weeks": 323,
+        "playtime_forever": 26776,
+        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
+        "playtime_windows_forever": 9809,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -75,23 +86,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 2357570,
-        "name": "Overwatch®",
-        "playtime_2weeks": 192,
-        "playtime_forever": 2979,
-        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 2979,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 188,
-    "total_playtime_minutes": 549464,
+    "total_playtime_minutes": 549609,
     "top_played": [
       {
         "appid": 271590,
@@ -160,14 +160,14 @@
       {
         "appid": 570,
         "name": "Dota 2",
-        "playtime_2weeks": 177,
-        "playtime_forever": 26631,
+        "playtime_2weeks": 323,
+        "playtime_forever": 26776,
         "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
-        "playtime_windows_forever": 9663,
+        "playtime_windows_forever": 9809,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1775366116,
+        "rtime_last_played": 1775424912,
         "content_descriptorids": [
           5
         ],
@@ -248,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-05T19:06:49Z"
+  "updated_at": "2026-04-06T07:21:58Z"
 }
