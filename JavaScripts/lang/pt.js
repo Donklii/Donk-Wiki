@@ -1,0 +1,197 @@
+/* Translations — Português */
+window.TRANSLATIONS = window.TRANSLATIONS || {};
+window.TRANSLATIONS.pt = {
+  /* Sidebar */
+  nav_title_navigation:   "Navegação",
+  nav_main_page:          "Página Principal",
+  nav_experiences:        "Experiências",
+  nav_portfolio:          "Portfólio",
+  nav_title_profile:      "Perfil",
+  nav_languages:          "Linguagens",
+  nav_courses:            "Cursos",
+  nav_trivia:             "Curiosidades",
+  nav_title_contact:      "Contato",
+
+  /* Top nav tabs */
+  tab_main_page:          "Página Principal",
+  tab_read:               "Ler",
+  tab_view_source:        "Ver código",
+  tab_view_history:       "Ver histórico",
+  search_placeholder:     "Pesquisar Donk Wiki",
+
+  /* Hero */
+  site_sub:               "Da Donk Wiki",
+  quote_text:             "O Donklii não tem medo de nada!!",
+
+  /* Table of contents */
+  toc_contents:           "Conteúdo",
+  toc_experiences:        "Experiências",
+  toc_portfolio:          "Portfólio",
+  toc_languages:          "Linguagens",
+  toc_courses:            "Cursos",
+  toc_trivia:             "Curiosidades",
+
+  /* Intro */
+  intro_p: `Sou um programador de jogos com experiência prática e acadêmica desde 2023.
+    Lancei cerca de 6 jogos em diferentes escopos e mecânicas, atuando como
+    programador solo ou líder de programação. Tenho familiaridade com múltiplas engines —
+    <span class="destaque">Unreal Engine</span>, <span class="destaque">Godot</span>,
+    <span class="destaque">Roblox Studio</span> e <span class="destaque">Unity</span> —
+    em 2D, 3D e VR. Também cuido de direção de áudio, animação 3D e modelagem 3D
+    quando necessário.`,
+
+  /* Experiences section */
+  section_experiences:    "Experiências &amp; Habilidades",
+  h3_professional:        "Profissional",
+  exp_professional_li:    `<span class="cor-secundaria">Desenvolvedor FullStack</span> na <span class="destaque">Net Soluções</span> (2026 – presente).`,
+  h3_game_dev:            "Desenvolvimento de Jogos",
+  exp_games_1:            `<span class="destaque">~6 jogos lançados</span> em diferentes escopos e mecânicas, desde 2023.`,
+  exp_games_2:            `Atua comumente como <span class="cor-secundaria">programador solo</span> ou <span class="cor-secundaria">líder de programação</span>.`,
+  exp_games_3:            `Experiência com <span class="destaque">Unreal Engine</span>, <span class="destaque">Godot</span>, <span class="destaque">Roblox Studio</span> e <span class="destaque">Unity</span>.`,
+  exp_games_4:            `Desenvolvimento em <span class="cor-secundaria">2D</span>, <span class="cor-secundaria">3D</span> e <span class="cor-secundaria">VR</span>.`,
+  exp_games_5:            `<span class="destaque">Design de som</span> e <span class="cor-secundaria">direção de áudio</span>.`,
+  exp_games_6:            `<span class="destaque">Modelagem e animação 3D</span>.`,
+  exp_games_7:            `<span class="cor-secundaria">Fotografia</span> e <span class="destaque">filmagem</span> para assets e apresentações de jogos.`,
+
+  /* Avatar / Infobox */
+  avatar_title_bio:       "Biografia",
+  avatar_also_known:      "Também conhecido como",
+  avatar_affiliation:     "Afiliação",
+  avatar_occupation:      "Ocupação",
+  avatar_occupation_val:  "Programador de Jogos / Dev FullStack",
+  avatar_title_desc:      "Descrição",
+  avatar_age:             "Idade",
+  avatar_lang_label:      "Idiomas",
+  avatar_lang_val:        "Inglês, Português",
+  avatar_nationality:     "Nacionalidade",
+  avatar_nationality_val: "Brasileiro",
+  avatar_location:        "Localização",
+  avatar_title_contact:   "Contato",
+  avatar_email:           "E-mail",
+  avatar_phone:           "Telefone",
+  avatar_discord:         "Discord",
+  avatar_handle:          "Arroba",
+
+  /* Portfolio tab labels */
+  tab_unreal:             "Unreal Engine",
+  tab_godot:              "Godot",
+  tab_roblox:             "Roblox",
+  tab_github:             "GitHub",
+
+  /* — Roblox tab — */
+  roblox_title:           "Minha Experiência com Roblox",
+  roblox_intro:           `Ao longo dos anos, construí familiaridade sólida com o <span class="cor-secundaria">Roblox Studio</span> — minha primeira e favorita game engine.`,
+  roblox_skibidi_h:       "SKIBIDI TOILETS: OBBY",
+  roblox_skibidi_p:       `Meu <span class="cor-secundaria">primeiro jogo publicado</span> no Roblox foi esse. Não é bom. Mas foi concluído — e isso é muito importante.`,
+  roblox_skibidi_platform:`Plataforma: <span class="destaque">Roblox</span>`,
+  roblox_skibidi_role:    `Função: <span class="cor-secundaria">Programador solo</span>`,
+  roblox_skibidi_genre:   `Gênero: <span class="destaque">Platformer</span>`,
+  roblox_skibidi_play:    "▶ Jogar no Roblox",
+  roblox_ryan_h:          "Ryan Gosling Tycoon",
+  roblox_ryan_p:          `Um projeto muito mais ambicioso — em breve. A ideia é reviver filmes e histórias icônicas do Ryan Gosling — ser ele, literalmente.`,
+  roblox_ryan_video:      "Vídeo de Apresentação",
+  roblox_morse_h:         "Código Morse (morse offline!!)",
+  roblox_morse_p:         `Um jogo feito em <span class="cor-secundaria">4 horas</span> sem nenhum propósito específico, no meio da madrugada.`,
+  roblox_morse_platform:  `Plataforma: <span class="destaque">Roblox</span>`,
+  roblox_morse_time:      `Tempo: <span class="cor-secundaria">4 horas</span>`,
+  roblox_morse_role:      `Função: <span class="cor-secundaria">Programador Solo</span>`,
+  roblox_morse_play:      "▶ Jogar no Roblox",
+
+  /* — Godot tab — */
+  godot_title:            "Minha Experiência com Godot",
+  godot_intro:            `Já investi cerca de <span class="cor-secundaria">500 horas</span> na <span class="cor-secundaria">Godot Engine</span>, com foco em <span class="destaque">programação 2D</span> e <span class="destaque">implementação de áudio</span>.`,
+  godot_func_h:           "Funcionário do Dia",
+  godot_func_p:           `Um <span class="cor-secundaria">jogo de memória</span> inspirado em jogos antigos de browser — feito em apenas 3 horas para uma game jam, onde atuei como <span class="destaque">programador líder</span>. O jogador assume o papel de um funcionário sobrecarregado tentando sobreviver ao dia.`,
+  godot_func_engine:      `Engine: <span class="destaque">Godot</span>`,
+  godot_func_jam:         `Jam: <span class="destaque">3 horas</span>`,
+  godot_func_role:        `Função: <span class="cor-secundaria">Programador Líder</span>`,
+  godot_func_genre:       `Gênero: <span class="destaque">Puzzle</span>`,
+  godot_func_theme:       `Tema da jam: <span class="cor-secundaria">Ar-condicionado</span>`,
+  godot_func_play:        "▶ Jogar no itch.io",
+  godot_polter_h:         "Poltermafia",
+  godot_polter_p:         `Um jogo de puzzle feito em uma semana para uma game jam, com o tema de <span class="destaque">possessão</span>. Fui o <span class="cor-secundaria">programador solo</span>.`,
+  godot_polter_engine:    `Engine: <span class="destaque">Godot</span>`,
+  godot_polter_jam:       `Jam: <span class="destaque">1 semana</span>`,
+  godot_polter_role:      `Função: <span class="cor-secundaria">Programador Solo</span>`,
+  godot_polter_genre:     `Gênero: <span class="destaque">Puzzle</span>`,
+  godot_polter_theme:     `Tema da jam: <span class="cor-secundaria">Possessão</span>`,
+  godot_arce_h:           "Arce Armorum",
+  godot_arce_p1:          `Uma demo descontinuada sobre um mago em busca do seu cajado mágico, enfrentando armas vivas que guardam um castelo. Fui responsável por toda a <span class="destaque">programação</span> e <span class="destaque">direção de áudio</span>; os visuais foram feitos por outro membro da equipe.`,
+  godot_arce_p2:          `A versão publicada <span class="cor-secundaria">não é a build mais recente</span> — várias melhorias foram feitas depois mas nunca lançadas.`,
+  godot_arce_caption:     `Trailer produzido por um membro da equipe que também compôs a <span class="destaque">trilha sonora</span>.`,
+  godot_arce_engine:      `Engine: <span class="destaque">Godot</span>`,
+  godot_arce_genre:       `Gênero: <span class="destaque">Metroidvania</span>`,
+  godot_arce_role:        `Função: <span class="cor-secundaria">Programador &amp; Diretor de Áudio</span>`,
+  godot_arce_status:      `Status: <span class="cor-secundaria">Demo Descontinuada</span>`,
+  godot_arce_play:        "▶ Ver no itch.io",
+  godot_other_h:          "Outros Projetos",
+  godot_other_p1:         `Também trabalhei em projetos menores como <span class="destaque">experimentos</span> ou para <span class="cor-secundaria">trabalhos da faculdade</span>.`,
+  godot_other_p2:         `Um exemplo é um <span class="cor-secundaria">jogo sem nome</span> feito para demonstrar <span class="destaque">conceitos de IA</span>, com:`,
+  godot_other_li1:        `<span class="destaque">Algoritmos de pathfinding</span>`,
+  godot_other_li2:        `<span class="destaque">Comportamentos autônomos</span>`,
+  godot_other_li3:        `<span class="destaque">Árvores de decisão</span>`,
+  godot_other_li4:        `<span class="destaque">Simulação de resultados</span>`,
+  godot_other_p3:         `O jogador não tem controle direto — a única interação é escolher um <span class="destaque">buff</span> ao subir de nível; todos os <span class="cor-secundaria">NPCs tomam suas próprias decisões</span>. O projeto está disponível no meu <span class="destaque">GitHub</span>.`,
+
+  /* — Unreal tab — */
+  unreal_title:           "Minha Experiência com Unreal Engine",
+  unreal_intro:           `Meu trabalho com Unreal Engine focou em <span class="cor-secundaria">desenvolvimento 3D</span>, incluindo projetos de jam onde atuei como <span class="destaque">programador solo ou líder.</span>`,
+  unreal_lobo_h:          "Lobo Tomia",
+  unreal_lobo_p:          `Um jogo de puzzle/exploração com estética visual inspirada em <span class="cor-secundaria">This War of Mine</span>, feito em uma semana para uma game jam. Fui o <span class="destaque">programador líder</span>, responsável pelos sistemas principais e pelo loop de gameplay.`,
+  unreal_lobo_engine:     `Engine: <span class="destaque">Unreal Engine</span>`,
+  unreal_lobo_jam:        `Jam: <span class="destaque">1 semana</span>`,
+  unreal_lobo_role:       `Função: <span class="cor-secundaria">Programador Líder</span>`,
+  unreal_lobo_aesthetic:  `Estética: inspirada em <span class="destaque">This War of Mine</span>`,
+  unreal_lobo_genre:      `Gênero: <span class="destaque">Puzzle</span>`,
+  unreal_lobo_theme:      `Tema da jam: <span class="cor-secundaria">Curiosidade</span>`,
+  unreal_lobo_play:       "▶ Ver no itch.io",
+  unreal_lobo_drive:      "📁 Versão mais recente (Google Drive)",
+  unreal_ossuario_h:      "Ossuário",
+  unreal_ossuario_p:      `Um <span class="cor-secundaria">jogo de puzzle em VR</span> feito em uma semana para uma game jam, construído inteiramente em <span class="destaque">Unreal Engine</span>. Fui o <span class="destaque">programador solo</span>, responsável pelas interações VR e mecânicas de puzzle.`,
+  unreal_ossuario_engine: `Engine: <span class="destaque">Unreal Engine</span>`,
+  unreal_ossuario_jam:    `Jam: <span class="destaque">1 semana</span>`,
+  unreal_ossuario_role:   `Função: <span class="cor-secundaria">Programador Solo</span>`,
+  unreal_ossuario_platform:`Plataforma: <span class="destaque">VR</span>`,
+  unreal_ossuario_genre:  `Gênero: <span class="destaque">Puzzle</span>`,
+  unreal_ossuario_play:   "▶ Ver no itch.io",
+
+  /* — GitHub tab — */
+  github_title:           "Meu GitHub",
+  github_p1:              `Meu <span class="cor-secundaria">GitHub</span> não é o lugar mais ativo. Como trabalho principalmente com <span class="cor-secundaria">projetos Roblox</span> — hospedados na própria plataforma — geralmente não publico muito por lá.`,
+  github_p2:              `Como costumo trabalhar sozinho, escrevo código para mim mesmo e o mantenho limpo o suficiente para entender depois, sem comentários excessivos.`,
+  github_p3:              `Dito isso, há algum conteúdo público: principalmente <span class="cor-secundaria">projetos da faculdade</span> e experimentos com <span class="cor-secundaria">Godot</span> e tecnologias web.`,
+  github_caption:         "Clique no logo para conferir — se tiver curiosidade!",
+
+  /* Languages section */
+  section_prog_languages: "Linguagens de Programação",
+
+  /* Courses section */
+  section_courses:        "Cursos Concluídos",
+  course_group_game:      "Design e Desenvolvimento de Jogos",
+  course_1:               "Fundamentos de Jogos Digitais",
+  course_2:               "Engines para Jogos Digitais",
+  course_3:               "Técnicas Avançadas para Engines de Jogos Digitais",
+  course_4:               "Inteligência Artificial para Jogos",
+  course_5:               "Áudio e Trilhas Sonoras para Jogos",
+  course_6:               "Mecânicas e Balanceamento de Jogos",
+  course_7:               "Computação Gráfica e Renderização",
+  course_8:               `Level Design para Jogos <span class="in-progress">(em andamento)</span>`,
+  course_9:               "Introdução à Palhaçaria",
+  cert_label:             "Certificado de Conclusão",
+  cert_open:              "abrir ↗",
+  cert_caption:           "Jogos Digitais · PES / UFRN",
+
+  /* Trivia section */
+  section_trivia:         "Curiosidades",
+  trivia_1:               `Meu nome de palhaço era "Chupetinha"`,
+  trivia_2:               "Eu gosto muito dos jogos da Valve",
+  trivia_3:               "Ryan Gosling Tycoon é o jogo que passei mais tempo desenvolvendo",
+  trivia_4:               "Tenho um curso técnico de hardware inacabado",
+  trivia_5:               "Esta página é inspirada na wiki do Barotrauma :>",
+
+  /* Footer */
+  footer_edited:          "Esta página foi editada pela última vez em 29 de março de 2026.",
+  footer_rights:          "© Donklii. Todos os direitos reservados.",
+  footer_about:           "Sobre",
+  footer_contact:         "Contato",
+};
