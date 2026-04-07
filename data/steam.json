@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1775448711,
-    "personastate": 1,
+    "lastlogoff": 1775538632,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,15 +19,37 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 12,
+    "total_count": 13,
     "games": [
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 623,
-        "playtime_forever": 21805,
+        "playtime_2weeks": 700,
+        "playtime_forever": 21882,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 21805,
+        "playtime_windows_forever": 21882,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 570,
+        "name": "Dota 2",
+        "playtime_2weeks": 589,
+        "playtime_forever": 27042,
+        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
+        "playtime_windows_forever": 10075,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 2357570,
+        "name": "Overwatch®",
+        "playtime_2weeks": 413,
+        "playtime_forever": 3199,
+        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
+        "playtime_windows_forever": 3199,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -35,7 +57,7 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 382,
+        "playtime_2weeks": 283,
         "playtime_forever": 6165,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
         "playtime_windows_forever": 6165,
@@ -44,23 +66,12 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 570,
-        "name": "Dota 2",
-        "playtime_2weeks": 323,
-        "playtime_forever": 26776,
-        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
-        "playtime_windows_forever": 9809,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 235,
-        "playtime_forever": 12764,
+        "playtime_2weeks": 279,
+        "playtime_forever": 12808,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 12764,
+        "playtime_windows_forever": 12808,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -68,21 +79,10 @@
       {
         "appid": 1313140,
         "name": "Cult of the Lamb",
-        "playtime_2weeks": 232,
-        "playtime_forever": 1670,
+        "playtime_2weeks": 260,
+        "playtime_forever": 1699,
         "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
-        "playtime_windows_forever": 1670,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 578620,
-        "name": "GORN",
-        "playtime_2weeks": 195,
-        "playtime_forever": 848,
-        "img_icon_url": "a9e8c74c0af738494192219e5d2ad1ab8b7b6f73",
-        "playtime_windows_forever": 848,
+        "playtime_windows_forever": 1699,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -90,8 +90,8 @@
     ]
   },
   "owned": {
-    "game_count": 188,
-    "total_playtime_minutes": 549609,
+    "game_count": 189,
+    "total_playtime_minutes": 550024,
     "top_played": [
       {
         "appid": 271590,
@@ -160,14 +160,14 @@
       {
         "appid": 570,
         "name": "Dota 2",
-        "playtime_2weeks": 323,
-        "playtime_forever": 26776,
+        "playtime_2weeks": 589,
+        "playtime_forever": 27042,
         "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
-        "playtime_windows_forever": 9809,
+        "playtime_windows_forever": 10075,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1775424912,
+        "rtime_last_played": 1775538138,
         "content_descriptorids": [
           5
         ],
@@ -176,15 +176,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 623,
-        "playtime_forever": 21805,
+        "playtime_2weeks": 700,
+        "playtime_forever": 21882,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 21805,
+        "playtime_windows_forever": 21882,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1775345442,
+        "rtime_last_played": 1775501553,
         "playtime_disconnected": 3303
       },
       {
@@ -203,14 +203,15 @@
       {
         "appid": 218620,
         "name": "PAYDAY 2",
-        "playtime_forever": 19974,
+        "playtime_2weeks": 42,
+        "playtime_forever": 20017,
         "img_icon_url": "a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 4860,
+        "playtime_windows_forever": 4903,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1749878642,
+        "rtime_last_played": 1775506088,
         "content_descriptorids": [
           2,
           5
@@ -248,5 +249,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-06T10:51:14Z"
+  "updated_at": "2026-04-07T07:08:26Z"
 }
