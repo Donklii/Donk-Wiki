@@ -11,23 +11,36 @@
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
     "lastlogoff": 1776668111,
-    "personastate": 0,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
+    "gameextrainfo": "Left 4 Dead 2",
+    "gameid": "550",
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 6,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1089,
-        "playtime_forever": 4069,
+        "playtime_2weeks": 919,
+        "playtime_forever": 4119,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 4069,
+        "playtime_windows_forever": 4119,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 354,
+        "playtime_forever": 2715,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1053,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -35,7 +48,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 381,
+        "playtime_2weeks": 304,
         "playtime_forever": 22186,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 22186,
@@ -44,31 +57,9 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 570,
-        "name": "Dota 2",
-        "playtime_2weeks": 266,
-        "playtime_forever": 27042,
-        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
-        "playtime_windows_forever": 10075,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 204,
-        "playtime_forever": 2565,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 903,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1313140,
         "name": "Cult of the Lamb",
-        "playtime_2weeks": 159,
+        "playtime_2weeks": 131,
         "playtime_forever": 1830,
         "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
         "playtime_windows_forever": 1830,
@@ -79,10 +70,21 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 115,
+        "playtime_2weeks": 71,
         "playtime_forever": 12880,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 12880,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1905180,
+        "name": "OBS Studio",
+        "playtime_2weeks": 41,
+        "playtime_forever": 773,
+        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
+        "playtime_windows_forever": 773,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +93,7 @@
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 550664,
+    "total_playtime_minutes": 550814,
     "top_played": [
       {
         "appid": 271590,
@@ -160,7 +162,6 @@
       {
         "appid": 570,
         "name": "Dota 2",
-        "playtime_2weeks": 266,
         "playtime_forever": 27042,
         "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
         "playtime_windows_forever": 10075,
@@ -176,7 +177,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 381,
+        "playtime_2weeks": 304,
         "playtime_forever": 22186,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -203,7 +204,6 @@
       {
         "appid": 218620,
         "name": "PAYDAY 2",
-        "playtime_2weeks": 42,
         "playtime_forever": 20017,
         "img_icon_url": "a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414",
         "has_community_visible_stats": true,
@@ -249,5 +249,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-20T07:57:17Z"
+  "updated_at": "2026-04-21T07:26:26Z"
 }
