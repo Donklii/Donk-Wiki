@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1776927657,
-    "personastate": 0,
+    "lastlogoff": 1776965739,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,12 +19,12 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 6,
+    "total_count": 5,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 977,
+        "playtime_2weeks": 857,
         "playtime_forever": 4177,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 4177,
@@ -72,17 +72,6 @@
         "playtime_forever": 12880,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 12880,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1905180,
-        "name": "OBS Studio",
-        "playtime_2weeks": 41,
-        "playtime_forever": 773,
-        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
-        "playtime_windows_forever": 773,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +236,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-23T07:27:39Z"
+  "updated_at": "2026-04-24T07:52:52Z"
 }
