@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1777106862,
-    "personastate": 1,
+    "lastlogoff": 1777276953,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -24,7 +24,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 868,
+        "playtime_2weeks": 732,
         "playtime_forever": 4386,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 4386,
@@ -46,10 +46,10 @@
       {
         "appid": 1313140,
         "name": "Cult of the Lamb",
-        "playtime_2weeks": 124,
-        "playtime_forever": 1830,
+        "playtime_2weeks": 153,
+        "playtime_forever": 1860,
         "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
-        "playtime_windows_forever": 1830,
+        "playtime_windows_forever": 1860,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -80,7 +80,7 @@
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 550910,
+    "total_playtime_minutes": 550940,
     "top_played": [
       {
         "appid": 271590,
@@ -236,5 +236,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-26T07:20:43Z"
+  "updated_at": "2026-04-27T08:12:08Z"
 }
