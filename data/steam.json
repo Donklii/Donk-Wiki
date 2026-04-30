@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1777442863,
+    "lastlogoff": 1777530690,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -35,10 +35,10 @@
       {
         "appid": 550,
         "name": "Left 4 Dead 2",
-        "playtime_2weeks": 451,
-        "playtime_forever": 2811,
+        "playtime_2weeks": 566,
+        "playtime_forever": 2927,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1150,
+        "playtime_windows_forever": 1266,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -80,7 +80,7 @@
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 550940,
+    "total_playtime_minutes": 551056,
     "top_played": [
       {
         "appid": 271590,
@@ -236,5 +236,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-29T08:06:35Z"
+  "updated_at": "2026-04-30T08:10:42Z"
 }
