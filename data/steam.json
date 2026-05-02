@@ -11,7 +11,7 @@
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
     "lastlogoff": 1777615487,
-    "personastate": 0,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,12 +19,23 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 6,
+    "total_count": 7,
     "games": [
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 566,
+        "playtime_forever": 2927,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1266,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 577,
+        "playtime_2weeks": 357,
         "playtime_forever": 4426,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 4426,
@@ -33,12 +44,12 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 566,
-        "playtime_forever": 2927,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1266,
+        "appid": 404790,
+        "name": "Godot Engine",
+        "playtime_2weeks": 294,
+        "playtime_forever": 23882,
+        "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
+        "playtime_windows_forever": 23882,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -57,10 +68,10 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 71,
-        "playtime_forever": 12880,
+        "playtime_2weeks": 72,
+        "playtime_forever": 12881,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 12880,
+        "playtime_windows_forever": 12881,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -72,17 +83,6 @@
         "playtime_forever": 22186,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 22186,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1905180,
-        "name": "OBS Studio",
-        "playtime_2weeks": 1,
-        "playtime_forever": 773,
-        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
-        "playtime_windows_forever": 773,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-01T08:05:24Z"
+  "updated_at": "2026-05-02T07:23:45Z"
 }
