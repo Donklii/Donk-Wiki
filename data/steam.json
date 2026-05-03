@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1777615487,
+    "lastlogoff": 1777715721,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -22,23 +22,23 @@
     "total_count": 7,
     "games": [
       {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 566,
-        "playtime_forever": 2927,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1266,
+        "appid": 2357570,
+        "name": "Overwatch®",
+        "playtime_2weeks": 633,
+        "playtime_forever": 4703,
+        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
+        "playtime_windows_forever": 4703,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
-        "appid": 2357570,
-        "name": "Overwatch®",
-        "playtime_2weeks": 357,
-        "playtime_forever": 4426,
-        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 4426,
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 589,
+        "playtime_forever": 2949,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1288,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,10 +46,21 @@
       {
         "appid": 404790,
         "name": "Godot Engine",
-        "playtime_2weeks": 294,
-        "playtime_forever": 23882,
+        "playtime_2weeks": 301,
+        "playtime_forever": 23889,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
-        "playtime_windows_forever": 23882,
+        "playtime_windows_forever": 23889,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 133,
+        "playtime_forever": 22255,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 22255,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -57,7 +68,7 @@
       {
         "appid": 1313140,
         "name": "Cult of the Lamb",
-        "playtime_2weeks": 153,
+        "playtime_2weeks": 89,
         "playtime_forever": 1860,
         "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
         "playtime_windows_forever": 1860,
@@ -75,23 +86,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1364780,
-        "name": "Street Fighter™ 6",
-        "playtime_2weeks": 64,
-        "playtime_forever": 22186,
-        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 22186,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 551056,
+    "total_playtime_minutes": 551147,
     "top_played": [
       {
         "appid": 271590,
@@ -175,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 64,
-        "playtime_forever": 22186,
+        "playtime_2weeks": 133,
+        "playtime_forever": 22255,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 22186,
+        "playtime_windows_forever": 22255,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1776649580,
+        "rtime_last_played": 1777780750,
         "playtime_disconnected": 3303
       },
       {
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-02T07:23:45Z"
+  "updated_at": "2026-05-03T07:53:07Z"
 }
