@@ -10,12 +10,14 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1777715721,
+    "lastlogoff": 1777798089,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
+    "gameextrainfo": "Left 4 Dead 2",
+    "gameid": "550",
     "loccountrycode": "BR"
   },
   "recent": {
@@ -35,10 +37,10 @@
       {
         "appid": 550,
         "name": "Left 4 Dead 2",
-        "playtime_2weeks": 589,
-        "playtime_forever": 2949,
+        "playtime_2weeks": 424,
+        "playtime_forever": 2989,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1288,
+        "playtime_windows_forever": 1327,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -57,7 +59,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 133,
+        "playtime_2weeks": 68,
         "playtime_forever": 22255,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 22255,
@@ -68,7 +70,7 @@
       {
         "appid": 1313140,
         "name": "Cult of the Lamb",
-        "playtime_2weeks": 89,
+        "playtime_2weeks": 29,
         "playtime_forever": 1860,
         "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
         "playtime_windows_forever": 1860,
@@ -77,12 +79,12 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 250820,
-        "name": "SteamVR",
-        "playtime_2weeks": 72,
-        "playtime_forever": 12881,
-        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 12881,
+        "appid": 1905180,
+        "name": "OBS Studio",
+        "playtime_2weeks": 1,
+        "playtime_forever": 773,
+        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
+        "playtime_windows_forever": 773,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +93,7 @@
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 551147,
+    "total_playtime_minutes": 551187,
     "top_played": [
       {
         "appid": 271590,
@@ -175,7 +177,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 133,
+        "playtime_2weeks": 68,
         "playtime_forever": 22255,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -247,5 +249,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-03T07:53:07Z"
+  "updated_at": "2026-05-04T08:22:38Z"
 }
