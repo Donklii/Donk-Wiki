@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1777884159,
+    "lastlogoff": 1778002076,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -57,10 +57,10 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 68,
-        "playtime_forever": 22255,
+        "playtime_2weeks": 126,
+        "playtime_forever": 22312,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 22255,
+        "playtime_windows_forever": 22312,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 551211,
+    "total_playtime_minutes": 551268,
     "top_played": [
       {
         "appid": 271590,
@@ -175,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 68,
-        "playtime_forever": 22255,
+        "playtime_2weeks": 126,
+        "playtime_forever": 22312,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 22255,
+        "playtime_windows_forever": 22312,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1777780750,
+        "rtime_last_played": 1777976371,
         "playtime_disconnected": 3303
       },
       {
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-05T08:00:22Z"
+  "updated_at": "2026-05-06T08:14:19Z"
 }
