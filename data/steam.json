@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1778002076,
-    "personastate": 1,
+    "lastlogoff": 1778129219,
+    "personastate": 3,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,15 +19,26 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 7,
+    "total_count": 8,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 583,
-        "playtime_forever": 4703,
+        "playtime_2weeks": 622,
+        "playtime_forever": 4799,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 4703,
+        "playtime_windows_forever": 4799,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 347,
+        "playtime_forever": 3102,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1441,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -44,23 +55,23 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 257,
-        "playtime_forever": 3013,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1351,
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 143,
+        "playtime_forever": 22330,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 22330,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
-        "appid": 1364780,
-        "name": "Street Fighter™ 6",
-        "playtime_2weeks": 126,
-        "playtime_forever": 22312,
-        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 22312,
+        "appid": 586140,
+        "name": "BlazBlue Centralfiction",
+        "playtime_2weeks": 35,
+        "playtime_forever": 1542,
+        "img_icon_url": "e513b2c0985e9bf6adc5c51ad0eb7ad46193d912",
+        "playtime_windows_forever": 1542,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -75,23 +86,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1905180,
-        "name": "OBS Studio",
-        "playtime_2weeks": 1,
-        "playtime_forever": 773,
-        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
-        "playtime_windows_forever": 773,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 190,
-    "total_playtime_minutes": 551268,
+    "total_playtime_minutes": 551410,
     "top_played": [
       {
         "appid": 271590,
@@ -175,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 126,
-        "playtime_forever": 22312,
+        "playtime_2weeks": 143,
+        "playtime_forever": 22330,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 22312,
+        "playtime_windows_forever": 22330,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1777976371,
+        "rtime_last_played": 1778122135,
         "playtime_disconnected": 3303
       },
       {
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-06T08:14:19Z"
+  "updated_at": "2026-05-07T08:24:51Z"
 }
