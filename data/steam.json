@@ -11,7 +11,7 @@
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
     "lastlogoff": 1778151453,
-    "personastate": 0,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 10,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 622,
-        "playtime_forever": 4799,
+        "playtime_2weeks": 684,
+        "playtime_forever": 4906,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 4799,
+        "playtime_windows_forever": 4906,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -66,23 +66,23 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 586140,
-        "name": "BlazBlue Centralfiction",
-        "playtime_2weeks": 35,
-        "playtime_forever": 1542,
-        "img_icon_url": "e513b2c0985e9bf6adc5c51ad0eb7ad46193d912",
-        "playtime_windows_forever": 1542,
+        "appid": 245170,
+        "name": "Skullgirls 2nd Encore",
+        "playtime_2weeks": 59,
+        "playtime_forever": 59,
+        "img_icon_url": "0931d59aa0e33244275f4fa6c4409816ccf00296",
+        "playtime_windows_forever": 59,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
-        "appid": 1313140,
-        "name": "Cult of the Lamb",
-        "playtime_2weeks": 29,
-        "playtime_forever": 1860,
-        "img_icon_url": "337223c1a97705aee1714ad9534c7d6cfabd92b0",
-        "playtime_windows_forever": 1860,
+        "appid": 586140,
+        "name": "BlazBlue Centralfiction",
+        "playtime_2weeks": 52,
+        "playtime_forever": 1560,
+        "img_icon_url": "e513b2c0985e9bf6adc5c51ad0eb7ad46193d912",
+        "playtime_windows_forever": 1560,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -90,8 +90,8 @@
     ]
   },
   "owned": {
-    "game_count": 190,
-    "total_playtime_minutes": 551410,
+    "game_count": 192,
+    "total_playtime_minutes": 551487,
     "top_played": [
       {
         "appid": 271590,
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-08T07:20:53Z"
+  "updated_at": "2026-05-09T07:48:09Z"
 }
