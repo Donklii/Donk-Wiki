@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1778151453,
-    "personastate": 1,
+    "lastlogoff": 1778360628,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -24,21 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 684,
-        "playtime_forever": 4906,
+        "playtime_2weeks": 755,
+        "playtime_forever": 5142,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 4906,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 347,
-        "playtime_forever": 3102,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1441,
+        "playtime_windows_forever": 5142,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -50,6 +39,17 @@
         "playtime_forever": 23889,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
         "playtime_windows_forever": 23889,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 291,
+        "playtime_forever": 3102,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1441,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-09T07:48:09Z"
+  "updated_at": "2026-05-10T08:01:06Z"
 }
