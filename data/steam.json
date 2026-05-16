@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1778807803,
+    "lastlogoff": 1778895726,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,7 +19,7 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 10,
+    "total_count": 9,
     "games": [
       {
         "appid": 431960,
@@ -35,21 +35,21 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 901,
-        "playtime_forever": 5328,
+        "playtime_2weeks": 948,
+        "playtime_forever": 5375,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 5328,
+        "playtime_windows_forever": 5375,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
-        "appid": 404790,
-        "name": "Godot Engine",
-        "playtime_2weeks": 301,
-        "playtime_forever": 23889,
-        "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
-        "playtime_windows_forever": 23889,
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 249,
+        "playtime_forever": 22435,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 22435,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -66,17 +66,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 1364780,
-        "name": "Street Fighter™ 6",
-        "playtime_2weeks": 144,
-        "playtime_forever": 22331,
-        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 22331,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 245170,
         "name": "Skullgirls 2nd Encore",
         "playtime_2weeks": 85,
@@ -86,12 +75,23 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
+      },
+      {
+        "appid": 204100,
+        "name": "Max Payne 3",
+        "playtime_2weeks": 65,
+        "playtime_forever": 469,
+        "img_icon_url": "96af86331719b56cefc55298b4fcb99c99f1cfee",
+        "playtime_windows_forever": 333,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 192,
-    "total_playtime_minutes": 552600,
+    "total_playtime_minutes": 552704,
     "top_played": [
       {
         "appid": 271590,
@@ -175,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 144,
-        "playtime_forever": 22331,
+        "playtime_2weeks": 249,
+        "playtime_forever": 22435,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 22331,
+        "playtime_windows_forever": 22435,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1778681567,
+        "rtime_last_played": 1778887300,
         "playtime_disconnected": 3303
       },
       {
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-15T08:42:02Z"
+  "updated_at": "2026-05-16T07:55:28Z"
 }
