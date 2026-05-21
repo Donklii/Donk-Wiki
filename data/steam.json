@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1779242011,
+    "lastlogoff": 1779345840,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,7 +19,7 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 10,
     "games": [
       {
         "appid": 431960,
@@ -35,10 +35,21 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 898,
-        "playtime_forever": 5601,
+        "playtime_2weeks": 996,
+        "playtime_forever": 5795,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 5601,
+        "playtime_windows_forever": 5795,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 197,
+        "playtime_forever": 3300,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1638,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,7 +57,7 @@
       {
         "appid": 586140,
         "name": "BlazBlue Centralfiction",
-        "playtime_2weeks": 155,
+        "playtime_2weeks": 120,
         "playtime_forever": 1662,
         "img_icon_url": "e513b2c0985e9bf6adc5c51ad0eb7ad46193d912",
         "playtime_windows_forever": 1662,
@@ -57,21 +68,10 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 122,
+        "playtime_2weeks": 105,
         "playtime_forever": 22435,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 22435,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 89,
-        "playtime_forever": 3102,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1441,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 192,
-    "total_playtime_minutes": 552817,
+    "total_playtime_minutes": 553015,
     "top_played": [
       {
         "appid": 271590,
@@ -175,7 +175,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 122,
+        "playtime_2weeks": 105,
         "playtime_forever": 22435,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-20T08:57:23Z"
+  "updated_at": "2026-05-21T09:27:54Z"
 }
