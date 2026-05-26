@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1779684059,
+    "lastlogoff": 1779764166,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,7 +24,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 838,
+        "playtime_2weeks": 809,
         "playtime_forever": 6137,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 6137,
@@ -35,10 +35,10 @@
       {
         "appid": 289070,
         "name": "Sid Meier's Civilization VI",
-        "playtime_2weeks": 592,
-        "playtime_forever": 3510,
+        "playtime_2weeks": 707,
+        "playtime_forever": 3626,
         "img_icon_url": "9dc914132fec244adcede62fb8e7524a72a7398c",
-        "playtime_windows_forever": 3510,
+        "playtime_windows_forever": 3626,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 193,
-    "total_playtime_minutes": 553699,
+    "total_playtime_minutes": 553815,
     "top_played": [
       {
         "appid": 271590,
@@ -232,7 +232,7 @@
         "appid": 292030,
         "name": "The Witcher 3: Wild Hunt",
         "playtime_forever": 16625,
-        "img_icon_url": "78d0ff98b67851f24539cdf2402cf147679134f4",
+        "img_icon_url": "7b52d11edee478d652ef4e7103e00644bed2c74c",
         "has_community_visible_stats": true,
         "playtime_windows_forever": 1406,
         "playtime_mac_forever": 0,
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-25T09:54:56Z"
+  "updated_at": "2026-05-26T09:41:30Z"
 }
