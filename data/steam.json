@@ -10,26 +10,35 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1780035233,
-    "personastate": 3,
+    "lastlogoff": 1780214489,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
-    "gameextrainfo": "Blender",
-    "gameid": "365670",
     "loccountrycode": "BR"
   },
   "recent": {
     "total_count": 11,
     "games": [
       {
+        "appid": 365670,
+        "name": "Blender",
+        "playtime_2weeks": 1419,
+        "playtime_forever": 4728,
+        "img_icon_url": "48733cd333eea6e40711a1b9c6dde32ffe363ced",
+        "playtime_windows_forever": 4728,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 289070,
         "name": "Sid Meier's Civilization VI",
-        "playtime_2weeks": 939,
-        "playtime_forever": 3858,
+        "playtime_2weeks": 1005,
+        "playtime_forever": 3924,
         "img_icon_url": "9dc914132fec244adcede62fb8e7524a72a7398c",
-        "playtime_windows_forever": 3858,
+        "playtime_windows_forever": 3924,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -37,7 +46,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 926,
+        "playtime_2weeks": 845,
         "playtime_forever": 6302,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 6302,
@@ -48,10 +57,21 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 467,
-        "playtime_forever": 22902,
+        "playtime_2weeks": 587,
+        "playtime_forever": 23022,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 22902,
+        "playtime_windows_forever": 23022,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 310,
+        "playtime_forever": 3413,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 1751,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -66,34 +86,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 365670,
-        "name": "Blender",
-        "playtime_2weeks": 210,
-        "playtime_forever": 3519,
-        "img_icon_url": "48733cd333eea6e40711a1b9c6dde32ffe363ced",
-        "playtime_windows_forever": 3519,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 197,
-        "playtime_forever": 3300,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 1638,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 193,
-    "total_playtime_minutes": 554422,
+    "total_playtime_minutes": 554721,
     "top_played": [
       {
         "appid": 271590,
@@ -177,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 467,
-        "playtime_forever": 22902,
+        "playtime_2weeks": 587,
+        "playtime_forever": 23022,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 22902,
+        "playtime_windows_forever": 23022,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1780110449,
+        "rtime_last_played": 1780179879,
         "playtime_disconnected": 3303
       },
       {
@@ -249,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-30T08:21:18Z"
+  "updated_at": "2026-05-31T08:37:22Z"
 }
