@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1780214489,
-    "personastate": 0,
+    "lastlogoff": 1780275251,
+    "personastate": 4,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 11,
+    "total_count": 10,
     "games": [
       {
         "appid": 365670,
         "name": "Blender",
-        "playtime_2weeks": 1419,
-        "playtime_forever": 4728,
+        "playtime_2weeks": 1622,
+        "playtime_forever": 4931,
         "img_icon_url": "48733cd333eea6e40711a1b9c6dde32ffe363ced",
-        "playtime_windows_forever": 4728,
+        "playtime_windows_forever": 4931,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,7 +46,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 845,
+        "playtime_2weeks": 746,
         "playtime_forever": 6302,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 6302,
@@ -57,10 +57,10 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 587,
-        "playtime_forever": 23022,
+        "playtime_2weeks": 651,
+        "playtime_forever": 23086,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 23022,
+        "playtime_windows_forever": 23086,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 193,
-    "total_playtime_minutes": 554721,
+    "total_playtime_minutes": 554785,
     "top_played": [
       {
         "appid": 271590,
@@ -175,15 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 587,
-        "playtime_forever": 23022,
+        "playtime_2weeks": 651,
+        "playtime_forever": 23086,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 23022,
+        "playtime_windows_forever": 23086,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1780179879,
+        "rtime_last_played": 1780282506,
         "playtime_disconnected": 3303
       },
       {
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-31T08:37:22Z"
+  "updated_at": "2026-06-01T11:19:48Z"
 }
