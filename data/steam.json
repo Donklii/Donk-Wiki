@@ -10,12 +10,14 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1781509432,
-    "personastate": 0,
+    "lastlogoff": 1781553279,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
+    "gameextrainfo": "Overwatch®",
+    "gameid": "2357570",
     "loccountrycode": "BR"
   },
   "recent": {
@@ -55,23 +57,23 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 2357570,
+        "name": "Overwatch®",
+        "playtime_2weeks": 135,
+        "playtime_forever": 6493,
+        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
+        "playtime_windows_forever": 6493,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 1905180,
         "name": "OBS Studio",
         "playtime_2weeks": 121,
         "playtime_forever": 991,
         "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
         "playtime_windows_forever": 991,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 2357570,
-        "name": "Overwatch®",
-        "playtime_2weeks": 87,
-        "playtime_forever": 6389,
-        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 6389,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -236,5 +238,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-15T11:51:56Z"
+  "updated_at": "2026-06-16T10:59:44Z"
 }
