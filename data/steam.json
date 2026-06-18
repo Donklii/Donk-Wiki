@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1781686761,
+    "lastlogoff": 1781772267,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,10 +24,10 @@
       {
         "appid": 404790,
         "name": "Godot Engine",
-        "playtime_2weeks": 1149,
-        "playtime_forever": 25274,
+        "playtime_2weeks": 1318,
+        "playtime_forever": 25443,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
-        "playtime_windows_forever": 25274,
+        "playtime_windows_forever": 25443,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -35,7 +35,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 971,
+        "playtime_2weeks": 952,
         "playtime_forever": 24280,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 24280,
@@ -46,10 +46,10 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 285,
-        "playtime_forever": 13216,
+        "playtime_2weeks": 350,
+        "playtime_forever": 13280,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 13216,
+        "playtime_windows_forever": 13280,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -57,10 +57,10 @@
       {
         "appid": 3391450,
         "name": "GORN 2",
-        "playtime_2weeks": 270,
-        "playtime_forever": 270,
+        "playtime_2weeks": 334,
+        "playtime_forever": 334,
         "img_icon_url": "1a349fa7dd3a2740967326445ba208fcb0d80b44",
-        "playtime_windows_forever": 270,
+        "playtime_windows_forever": 334,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 194,
-    "total_playtime_minutes": 556249,
+    "total_playtime_minutes": 556313,
     "top_played": [
       {
         "appid": 271590,
@@ -175,7 +175,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 971,
+        "playtime_2weeks": 952,
         "playtime_forever": 24280,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-17T10:43:52Z"
+  "updated_at": "2026-06-18T10:12:01Z"
 }
