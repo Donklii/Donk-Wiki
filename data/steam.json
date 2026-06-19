@@ -10,12 +10,14 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1781772267,
-    "personastate": 0,
+    "lastlogoff": 1781794622,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
+    "gameextrainfo": "Godot Engine",
+    "gameid": "404790",
     "loccountrycode": "BR"
   },
   "recent": {
@@ -24,10 +26,10 @@
       {
         "appid": 404790,
         "name": "Godot Engine",
-        "playtime_2weeks": 1318,
-        "playtime_forever": 25443,
+        "playtime_2weeks": 1591,
+        "playtime_forever": 25716,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
-        "playtime_windows_forever": 25443,
+        "playtime_windows_forever": 25716,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -35,7 +37,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 952,
+        "playtime_2weeks": 887,
         "playtime_forever": 24280,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 24280,
@@ -90,7 +92,7 @@
     ]
   },
   "owned": {
-    "game_count": 194,
+    "game_count": 195,
     "total_playtime_minutes": 556313,
     "top_played": [
       {
@@ -175,7 +177,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 952,
+        "playtime_2weeks": 887,
         "playtime_forever": 24280,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -247,5 +249,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-18T10:12:01Z"
+  "updated_at": "2026-06-19T10:17:08Z"
 }
