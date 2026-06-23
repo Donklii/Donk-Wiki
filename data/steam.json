@@ -10,14 +10,12 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1782075879,
-    "personastate": 1,
+    "lastlogoff": 1782140930,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
-    "gameextrainfo": "Cyberpunk 2077",
-    "gameid": "1091500",
     "loccountrycode": "BR"
   },
   "recent": {
@@ -46,17 +44,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 1364780,
-        "name": "Street Fighter™ 6",
-        "playtime_2weeks": 354,
-        "playtime_forever": 24280,
-        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 24280,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 250820,
         "name": "SteamVR",
         "playtime_2weeks": 350,
@@ -79,6 +66,17 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 288,
+        "playtime_forever": 24280,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 24280,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 1174180,
         "name": "Red Dead Redemption 2",
         "playtime_2weeks": 134,
@@ -93,7 +91,7 @@
   },
   "owned": {
     "game_count": 195,
-    "total_playtime_minutes": 556454,
+    "total_playtime_minutes": 556570,
     "top_played": [
       {
         "appid": 271590,
@@ -177,7 +175,7 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 354,
+        "playtime_2weeks": 288,
         "playtime_forever": 24280,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -249,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-22T11:41:20Z"
+  "updated_at": "2026-06-23T09:27:54Z"
 }
