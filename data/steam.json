@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1782347501,
+    "lastlogoff": 1782438276,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 13,
     "games": [
       {
         "appid": 404790,
         "name": "Godot Engine",
-        "playtime_2weeks": 2480,
-        "playtime_forever": 26605,
+        "playtime_2weeks": 2532,
+        "playtime_forever": 26656,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
-        "playtime_windows_forever": 26605,
+        "playtime_windows_forever": 26656,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 555,
-        "playtime_forever": 6912,
+        "playtime_2weeks": 652,
+        "playtime_forever": 7010,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 6912,
+        "playtime_windows_forever": 7010,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,10 +46,10 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 350,
-        "playtime_forever": 13280,
+        "playtime_2weeks": 370,
+        "playtime_forever": 13300,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 13280,
+        "playtime_windows_forever": 13300,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -68,7 +68,7 @@
       {
         "appid": 1174180,
         "name": "Red Dead Redemption 2",
-        "playtime_2weeks": 213,
+        "playtime_2weeks": 214,
         "playtime_forever": 4063,
         "img_icon_url": "5106abd9c1187a97f23295a0ba9470c94804ec6c",
         "playtime_windows_forever": 4063,
@@ -90,8 +90,8 @@
     ]
   },
   "owned": {
-    "game_count": 195,
-    "total_playtime_minutes": 556649,
+    "game_count": 204,
+    "total_playtime_minutes": 556709,
     "top_played": [
       {
         "appid": 271590,
@@ -189,14 +189,15 @@
       {
         "appid": 457140,
         "name": "Oxygen Not Included",
-        "playtime_forever": 20559,
+        "playtime_2weeks": 3,
+        "playtime_forever": 20562,
         "img_icon_url": "d37534163ebac8351e0bda0bf30f8f2174c921b6",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 20559,
+        "playtime_windows_forever": 20562,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1771032440,
+        "rtime_last_played": 1782395525,
         "playtime_disconnected": 150
       },
       {
@@ -247,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-25T08:51:33Z"
+  "updated_at": "2026-06-26T08:54:09Z"
 }
