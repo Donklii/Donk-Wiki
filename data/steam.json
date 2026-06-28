@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1782531550,
+    "lastlogoff": 1782620405,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,7 +19,7 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 13,
+    "total_count": 14,
     "games": [
       {
         "appid": 404790,
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 823,
-        "playtime_forever": 7181,
+        "playtime_2weeks": 919,
+        "playtime_forever": 7276,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 7181,
+        "playtime_windows_forever": 7276,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,7 +46,7 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 377,
+        "playtime_2weeks": 334,
         "playtime_forever": 13392,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 13392,
@@ -66,17 +66,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 3391450,
-        "name": "GORN 2",
-        "playtime_2weeks": 251,
-        "playtime_forever": 334,
-        "img_icon_url": "1a349fa7dd3a2740967326445ba208fcb0d80b44",
-        "playtime_windows_forever": 334,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1174180,
         "name": "Red Dead Redemption 2",
         "playtime_2weeks": 214,
@@ -86,12 +75,23 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
+      },
+      {
+        "appid": 3391450,
+        "name": "GORN 2",
+        "playtime_2weeks": 211,
+        "playtime_forever": 334,
+        "img_icon_url": "1a349fa7dd3a2740967326445ba208fcb0d80b44",
+        "playtime_windows_forever": 334,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
-    "game_count": 204,
-    "total_playtime_minutes": 557082,
+    "game_count": 205,
+    "total_playtime_minutes": 557112,
     "top_played": [
       {
         "appid": 271590,
@@ -248,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-27T08:29:08Z"
+  "updated_at": "2026-06-28T08:44:03Z"
 }
