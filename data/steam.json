@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1782791940,
+    "lastlogoff": 1782883688,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,7 +24,7 @@
       {
         "appid": 404790,
         "name": "Godot Engine",
-        "playtime_2weeks": 2532,
+        "playtime_2weeks": 1382,
         "playtime_forever": 26656,
         "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
         "playtime_windows_forever": 26656,
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 893,
-        "playtime_forever": 7323,
+        "playtime_2weeks": 1004,
+        "playtime_forever": 7540,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 7323,
+        "playtime_windows_forever": 7540,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -248,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-30T09:22:35Z"
+  "updated_at": "2026-07-01T09:34:58Z"
 }
