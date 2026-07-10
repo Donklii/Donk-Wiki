@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1783586575,
+    "lastlogoff": 1783662024,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,23 +19,23 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 15,
+    "total_count": 9,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 802,
-        "playtime_forever": 7715,
+        "playtime_2weeks": 789,
+        "playtime_forever": 7799,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 7712,
+        "playtime_windows_forever": 7759,
         "playtime_mac_forever": 0,
-        "playtime_linux_forever": 2,
+        "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
       },
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 477,
+        "playtime_2weeks": 456,
         "playtime_forever": 13757,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 13586,
@@ -46,7 +46,7 @@
       {
         "appid": 2897700,
         "name": "Arizona Sunshine® VR Remake",
-        "playtime_2weeks": 302,
+        "playtime_2weeks": 283,
         "playtime_forever": 302,
         "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
         "playtime_windows_forever": 302,
@@ -189,7 +189,6 @@
       {
         "appid": 457140,
         "name": "Oxygen Not Included",
-        "playtime_2weeks": 3,
         "playtime_forever": 20562,
         "img_icon_url": "d37534163ebac8351e0bda0bf30f8f2174c921b6",
         "has_community_visible_stats": true,
@@ -248,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-09T09:32:03Z"
+  "updated_at": "2026-07-10T09:23:32Z"
 }
