@@ -10,23 +10,32 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1783828087,
+    "lastlogoff": 1783887576,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
-    "gameextrainfo": "Left 4 Dead 2",
-    "gameid": "550",
     "loccountrycode": "BR"
   },
   "recent": {
     "total_count": 7,
     "games": [
       {
+        "appid": 250820,
+        "name": "SteamVR",
+        "playtime_2weeks": 985,
+        "playtime_forever": 14377,
+        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
+        "playtime_windows_forever": 14206,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 171,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 710,
+        "playtime_2weeks": 663,
         "playtime_forever": 7986,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 7946,
@@ -35,34 +44,12 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 250820,
-        "name": "SteamVR",
-        "playtime_2weeks": 445,
-        "playtime_forever": 13837,
-        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 13666,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 171,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 550,
-        "name": "Left 4 Dead 2",
-        "playtime_2weeks": 271,
-        "playtime_forever": 3684,
-        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 2023,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 2441700,
         "name": "UNDERDOGS",
-        "playtime_2weeks": 215,
-        "playtime_forever": 215,
+        "playtime_2weeks": 340,
+        "playtime_forever": 340,
         "img_icon_url": "cee73a5cae2e41fd25506d944d5c0f633f7a4ab9",
-        "playtime_windows_forever": 80,
+        "playtime_windows_forever": 205,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 134,
         "playtime_deck_forever": 0
@@ -74,6 +61,17 @@
         "playtime_forever": 302,
         "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
         "playtime_windows_forever": 302,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 550,
+        "name": "Left 4 Dead 2",
+        "playtime_2weeks": 123,
+        "playtime_forever": 3739,
+        "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+        "playtime_windows_forever": 2077,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -93,7 +91,7 @@
   },
   "owned": {
     "game_count": 207,
-    "total_playtime_minutes": 557856,
+    "total_playtime_minutes": 558036,
     "top_played": [
       {
         "appid": 271590,
@@ -248,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-12T08:06:01Z"
+  "updated_at": "2026-07-13T08:56:01Z"
 }
