@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1784008891,
+    "lastlogoff": 1784095208,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,10 +24,10 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 1017,
-        "playtime_forever": 14410,
+        "playtime_2weeks": 1108,
+        "playtime_forever": 14500,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 14238,
+        "playtime_windows_forever": 14329,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 171,
         "playtime_deck_forever": 0
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 751,
-        "playtime_forever": 8075,
+        "playtime_2weeks": 542,
+        "playtime_forever": 8082,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 8035,
+        "playtime_windows_forever": 8042,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -46,10 +46,10 @@
       {
         "appid": 2441700,
         "name": "UNDERDOGS",
-        "playtime_2weeks": 340,
-        "playtime_forever": 340,
+        "playtime_2weeks": 430,
+        "playtime_forever": 430,
         "img_icon_url": "cee73a5cae2e41fd25506d944d5c0f633f7a4ab9",
-        "playtime_windows_forever": 205,
+        "playtime_windows_forever": 295,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 134,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 207,
-    "total_playtime_minutes": 558037,
+    "total_playtime_minutes": 558127,
     "top_played": [
       {
         "appid": 271590,
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-14T07:51:47Z"
+  "updated_at": "2026-07-15T07:55:30Z"
 }
