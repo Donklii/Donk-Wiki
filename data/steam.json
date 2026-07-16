@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1784095208,
-    "personastate": 1,
+    "lastlogoff": 1784175201,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -24,7 +24,7 @@
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 1108,
+        "playtime_2weeks": 1018,
         "playtime_forever": 14500,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 14329,
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 542,
-        "playtime_forever": 8082,
+        "playtime_2weeks": 891,
+        "playtime_forever": 8432,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 8042,
+        "playtime_windows_forever": 8391,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -55,23 +55,23 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 2897700,
-        "name": "Arizona Sunshine® VR Remake",
-        "playtime_2weeks": 193,
-        "playtime_forever": 302,
-        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
-        "playtime_windows_forever": 302,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 550,
         "name": "Left 4 Dead 2",
         "playtime_2weeks": 123,
         "playtime_forever": 3739,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
         "playtime_windows_forever": 2077,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 2897700,
+        "name": "Arizona Sunshine® VR Remake",
+        "playtime_2weeks": 102,
+        "playtime_forever": 302,
+        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
+        "playtime_windows_forever": 302,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-15T07:55:30Z"
+  "updated_at": "2026-07-16T08:01:17Z"
 }
