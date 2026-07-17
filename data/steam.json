@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1784175201,
-    "personastate": 0,
+    "lastlogoff": 1784239076,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,7 +19,7 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 7,
+    "total_count": 8,
     "games": [
       {
         "appid": 250820,
@@ -35,10 +35,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 891,
-        "playtime_forever": 8432,
+        "playtime_2weeks": 818,
+        "playtime_forever": 8481,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 8391,
+        "playtime_windows_forever": 8440,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-16T08:01:17Z"
+  "updated_at": "2026-07-17T07:58:11Z"
 }
