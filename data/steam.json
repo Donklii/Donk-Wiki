@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1784354440,
-    "personastate": 0,
+    "lastlogoff": 1784402655,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,28 +19,28 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 7,
     "games": [
+      {
+        "appid": 2357570,
+        "name": "Overwatch®",
+        "playtime_2weeks": 1349,
+        "playtime_forever": 9013,
+        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
+        "playtime_windows_forever": 8972,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 40,
+        "playtime_deck_forever": 0
+      },
       {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 1073,
+        "playtime_2weeks": 968,
         "playtime_forever": 14555,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 14383,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 171,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 2357570,
-        "name": "Overwatch®",
-        "playtime_2weeks": 818,
-        "playtime_forever": 8481,
-        "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 8440,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
       },
       {
@@ -66,17 +66,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 2897700,
-        "name": "Arizona Sunshine® VR Remake",
-        "playtime_2weeks": 102,
-        "playtime_forever": 302,
-        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
-        "playtime_windows_forever": 302,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1422450,
         "name": "Deadlock",
         "playtime_2weeks": 51,
@@ -85,6 +74,17 @@
         "playtime_windows_forever": 6165,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 404790,
+        "name": "Godot Engine",
+        "playtime_2weeks": 25,
+        "playtime_forever": 26682,
+        "img_icon_url": "057ae868c1d0975b941d73f58d1dc17c8a15a090",
+        "playtime_windows_forever": 26682,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       }
     ]
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-18T07:38:47Z"
+  "updated_at": "2026-07-19T08:05:22Z"
 }
