@@ -10,32 +10,45 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1784979037,
-    "personastate": 3,
+    "lastlogoff": 1785071709,
+    "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
     "personastateflags": 0,
+    "gameextrainfo": "Overwatch®",
+    "gameid": "2357570",
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 9,
+    "total_count": 11,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1855,
-        "playtime_forever": 9842,
+        "playtime_2weeks": 2176,
+        "playtime_forever": 10163,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 9802,
+        "playtime_windows_forever": 10122,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
       },
       {
+        "appid": 239140,
+        "name": "Dying Light",
+        "playtime_2weeks": 281,
+        "playtime_forever": 6081,
+        "img_icon_url": "d575b4ba3480fe20aaeda8e8f498c3e47033069d",
+        "playtime_windows_forever": 6081,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 250820,
         "name": "SteamVR",
-        "playtime_2weeks": 717,
+        "playtime_2weeks": 145,
         "playtime_forever": 14555,
         "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
         "playtime_windows_forever": 14383,
@@ -46,7 +59,7 @@
       {
         "appid": 2441700,
         "name": "UNDERDOGS",
-        "playtime_2weeks": 269,
+        "playtime_2weeks": 143,
         "playtime_forever": 484,
         "img_icon_url": "cee73a5cae2e41fd25506d944d5c0f633f7a4ab9",
         "playtime_windows_forever": 349,
@@ -55,34 +68,23 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 582010,
+        "name": "Monster Hunter: World",
+        "playtime_2weeks": 78,
+        "playtime_forever": 78,
+        "img_icon_url": "6ec147f2d423f435e15eb79b3d82f771913de634",
+        "playtime_windows_forever": 78,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 550,
         "name": "Left 4 Dead 2",
-        "playtime_2weeks": 105,
+        "playtime_2weeks": 69,
         "playtime_forever": 3808,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
         "playtime_windows_forever": 2147,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 322500,
-        "name": "SUPERHOT",
-        "playtime_2weeks": 61,
-        "playtime_forever": 93,
-        "img_icon_url": "81839f0d50cb3e54c9aa7c69c04916f1e53d8c35",
-        "playtime_windows_forever": 93,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 945360,
-        "name": "Among Us",
-        "playtime_2weeks": 29,
-        "playtime_forever": 29,
-        "img_icon_url": "b82c3f46da8f3c918e1c9e0d18bd6fa8fcef6801",
-        "playtime_windows_forever": 29,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +93,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 558341,
+    "total_playtime_minutes": 558701,
     "top_played": [
       {
         "appid": 271590,
@@ -246,5 +248,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-26T08:13:41Z"
+  "updated_at": "2026-07-27T09:37:58Z"
 }
