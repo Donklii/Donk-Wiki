@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1785613151,
+    "lastlogoff": 1785705043,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,7 +19,7 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 10,
+    "total_count": 9,
     "games": [
       {
         "appid": 2357570,
@@ -66,23 +66,23 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 322500,
-        "name": "SUPERHOT",
-        "playtime_2weeks": 61,
-        "playtime_forever": 93,
-        "img_icon_url": "81839f0d50cb3e54c9aa7c69c04916f1e53d8c35",
-        "playtime_windows_forever": 93,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 945360,
         "name": "Among Us",
         "playtime_2weeks": 29,
         "playtime_forever": 29,
         "img_icon_url": "b82c3f46da8f3c918e1c9e0d18bd6fa8fcef6801",
         "playtime_windows_forever": 29,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1905180,
+        "name": "OBS Studio",
+        "playtime_2weeks": 11,
+        "playtime_forever": 1002,
+        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
+        "playtime_windows_forever": 1002,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-02T08:11:03Z"
+  "updated_at": "2026-08-03T09:31:43Z"
 }
