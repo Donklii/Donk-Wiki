@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1786341150,
+    "lastlogoff": 1786421666,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,10 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 3298,
-        "playtime_forever": 13324,
+        "playtime_2weeks": 2937,
+        "playtime_forever": 13442,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 13283,
+        "playtime_windows_forever": 13401,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -35,10 +35,10 @@
       {
         "appid": 550,
         "name": "Left 4 Dead 2",
-        "playtime_2weeks": 295,
-        "playtime_forever": 4104,
+        "playtime_2weeks": 682,
+        "playtime_forever": 4491,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
-        "playtime_windows_forever": 2442,
+        "playtime_windows_forever": 2830,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 559047,
+    "total_playtime_minutes": 559434,
     "top_played": [
       {
         "appid": 271590,
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-10T07:18:12Z"
+  "updated_at": "2026-08-11T06:55:04Z"
 }
