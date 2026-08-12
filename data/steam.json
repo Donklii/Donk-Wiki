@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1786421666,
+    "lastlogoff": 1786497926,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,12 +19,12 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 7,
+    "total_count": 8,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 2937,
+        "playtime_2weeks": 2714,
         "playtime_forever": 13442,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 13401,
@@ -66,6 +66,17 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 527230,
+        "name": "For The King",
+        "playtime_2weeks": 30,
+        "playtime_forever": 393,
+        "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
+        "playtime_windows_forever": 393,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 1966720,
         "name": "Lethal Company",
         "playtime_2weeks": 12,
@@ -75,23 +86,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1905180,
-        "name": "OBS Studio",
-        "playtime_2weeks": 9,
-        "playtime_forever": 1002,
-        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
-        "playtime_windows_forever": 1002,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 559434,
+    "total_playtime_minutes": 559465,
     "top_played": [
       {
         "appid": 271590,
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-11T06:55:04Z"
+  "updated_at": "2026-08-12T07:14:23Z"
 }
