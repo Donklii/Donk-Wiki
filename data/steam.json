@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1786497926,
+    "lastlogoff": 1786582955,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 8,
+    "total_count": 7,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 2714,
-        "playtime_forever": 13442,
+        "playtime_2weeks": 2461,
+        "playtime_forever": 13509,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 13401,
+        "playtime_windows_forever": 13468,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -202,7 +202,7 @@
         "appid": 218620,
         "name": "PAYDAY 2",
         "playtime_forever": 20017,
-        "img_icon_url": "d7fc63389c7ddcbdd3d5de432eb2fd21a564ba6d",
+        "img_icon_url": "8fce45cbb0dee03e87cd30b96ac5e5c3d4b2c494",
         "has_community_visible_stats": true,
         "playtime_windows_forever": 4903,
         "playtime_mac_forever": 0,
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-12T07:14:23Z"
+  "updated_at": "2026-08-13T07:16:36Z"
 }
