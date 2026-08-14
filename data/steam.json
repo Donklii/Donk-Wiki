@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1786582955,
+    "lastlogoff": 1786671907,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,7 +24,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 2461,
+        "playtime_2weeks": 2129,
         "playtime_forever": 13509,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 13468,
@@ -39,6 +39,17 @@
         "playtime_forever": 4491,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
         "playtime_windows_forever": 2830,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 527230,
+        "name": "For The King",
+        "playtime_2weeks": 133,
+        "playtime_forever": 495,
+        "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
+        "playtime_windows_forever": 495,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -66,17 +77,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 527230,
-        "name": "For The King",
-        "playtime_2weeks": 30,
-        "playtime_forever": 393,
-        "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
-        "playtime_windows_forever": 393,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1966720,
         "name": "Lethal Company",
         "playtime_2weeks": 12,
@@ -91,7 +91,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 559465,
+    "total_playtime_minutes": 559567,
     "top_played": [
       {
         "appid": 271590,
@@ -246,5 +246,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-13T07:16:36Z"
+  "updated_at": "2026-08-14T07:14:36Z"
 }
