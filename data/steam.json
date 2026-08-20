@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1787079904,
+    "lastlogoff": 1787125879,
     "personastate": 1,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -24,10 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1616,
-        "playtime_forever": 13748,
+        "playtime_2weeks": 1762,
+        "playtime_forever": 13983,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 13707,
+        "playtime_windows_forever": 13943,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -39,6 +39,17 @@
         "playtime_forever": 4491,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
         "playtime_windows_forever": 2830,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 602960,
+        "name": "Barotrauma",
+        "playtime_2weeks": 151,
+        "playtime_forever": 12947,
+        "img_icon_url": "a0adb0f29ce819c6dffa32446624fb7648defc5a",
+        "playtime_windows_forever": 12947,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -64,23 +75,12 @@
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
-      },
-      {
-        "appid": 602960,
-        "name": "Barotrauma",
-        "playtime_2weeks": 11,
-        "playtime_forever": 12807,
-        "img_icon_url": "a0adb0f29ce819c6dffa32446624fb7648defc5a",
-        "playtime_windows_forever": 12807,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 559578,
+    "total_playtime_minutes": 559718,
     "top_played": [
       {
         "appid": 271590,
@@ -235,5 +235,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-19T06:32:10Z"
+  "updated_at": "2026-08-20T06:34:17Z"
 }
