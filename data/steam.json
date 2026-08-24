@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1787388199,
-    "personastate": 1,
+    "lastlogoff": 1787539786,
+    "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 5,
+    "total_count": 4,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1881,
-        "playtime_forever": 14947,
+        "playtime_2weeks": 1721,
+        "playtime_forever": 15046,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 14907,
+        "playtime_windows_forever": 15005,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -35,7 +35,7 @@
       {
         "appid": 550,
         "name": "Left 4 Dead 2",
-        "playtime_2weeks": 672,
+        "playtime_2weeks": 387,
         "playtime_forever": 4491,
         "img_icon_url": "7d5a243f9500d2f8467312822f8af2a2928777ed",
         "playtime_windows_forever": 2830,
@@ -61,17 +61,6 @@
         "playtime_forever": 495,
         "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
         "playtime_windows_forever": 495,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1966720,
-        "name": "Lethal Company",
-        "playtime_2weeks": 12,
-        "playtime_forever": 2506,
-        "img_icon_url": "80d2453285274e4723c884a671cdd3f8fe2f766f",
-        "playtime_windows_forever": 2506,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -235,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-23T06:29:17Z"
+  "updated_at": "2026-08-24T06:42:13Z"
 }
