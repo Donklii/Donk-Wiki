@@ -10,8 +10,8 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1787629196,
-    "personastate": 0,
+    "lastlogoff": 1787708159,
+    "personastate": 3,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
     "timecreated": 1388190424,
@@ -24,10 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1630,
-        "playtime_forever": 15072,
+        "playtime_2weeks": 1694,
+        "playtime_forever": 15137,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 15032,
+        "playtime_windows_forever": 15096,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -46,7 +46,7 @@
       {
         "appid": 527230,
         "name": "For The King",
-        "playtime_2weeks": 133,
+        "playtime_2weeks": 102,
         "playtime_forever": 495,
         "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
         "playtime_windows_forever": 495,
@@ -196,7 +196,7 @@
       },
       {
         "appid": 292030,
-        "name": "The Witcher 3: Wild Hunt",
+        "name": "The Witcher 3: Wild Hunt - Complete Edition",
         "playtime_forever": 16625,
         "img_icon_url": "7b52d11edee478d652ef4e7103e00644bed2c74c",
         "has_community_visible_stats": true,
@@ -213,5 +213,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-25T06:34:21Z"
+  "updated_at": "2026-08-26T06:36:15Z"
 }
