@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1788490258,
+    "lastlogoff": 1788593886,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,17 +19,28 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 5,
+    "total_count": 7,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1479,
+        "playtime_2weeks": 976,
         "playtime_forever": 15632,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 15591,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 105600,
+        "name": "Terraria",
+        "playtime_2weeks": 501,
+        "playtime_forever": 7471,
+        "img_icon_url": "858961e95fbf869f136e1770d586e0caefd4cfac",
+        "playtime_windows_forever": 7471,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
@@ -80,7 +91,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 559888,
+    "total_playtime_minutes": 560411,
     "top_played": [
       {
         "appid": 271590,
@@ -164,14 +175,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_forever": 24286,
+        "playtime_2weeks": 21,
+        "playtime_forever": 24308,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 24286,
+        "playtime_windows_forever": 24308,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1782529016,
+        "rtime_last_played": 1788576674,
         "playtime_disconnected": 3303
       },
       {
@@ -235,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-04T10:20:18Z"
+  "updated_at": "2026-09-05T09:47:56Z"
 }
