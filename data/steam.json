@@ -24,10 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 693,
-        "playtime_forever": 15830,
+        "playtime_2weeks": 796,
+        "playtime_forever": 15991,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 15790,
+        "playtime_windows_forever": 15950,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -161,7 +161,7 @@
         "appid": 570,
         "name": "Dota 2",
         "playtime_forever": 27042,
-        "img_icon_url": "0bbb630d63262dd66d2fdd0f7d37e8661a410075",
+        "img_icon_url": "48eb825bb93787945065b460bdc109e395384ebf",
         "playtime_windows_forever": 10075,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-10T10:23:06Z"
+  "updated_at": "2026-09-11T10:24:19Z"
 }
