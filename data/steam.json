@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 7,
+    "total_count": 6,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 796,
-        "playtime_forever": 15991,
+        "playtime_2weeks": 1230,
+        "playtime_forever": 16464,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 15950,
+        "playtime_windows_forever": 16423,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -39,17 +39,6 @@
         "playtime_forever": 7471,
         "img_icon_url": "858961e95fbf869f136e1770d586e0caefd4cfac",
         "playtime_windows_forever": 7471,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 527230,
-        "name": "For The King",
-        "playtime_2weeks": 88,
-        "playtime_forever": 583,
-        "img_icon_url": "790411a4c44e243fa19fe8b3b6a8ca15679c7fbf",
-        "playtime_windows_forever": 583,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -83,6 +72,17 @@
         "playtime_forever": 25,
         "img_icon_url": "9c1924a9546e5d5ffca0c4ba3ff5663b92b1799b",
         "playtime_windows_forever": 25,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 21,
+        "playtime_forever": 24308,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 24308,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-11T10:24:19Z"
+  "updated_at": "2026-09-12T09:54:35Z"
 }
