@@ -24,10 +24,10 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1230,
-        "playtime_forever": 16464,
+        "playtime_2weeks": 1442,
+        "playtime_forever": 16755,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 16423,
+        "playtime_windows_forever": 16714,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -44,28 +44,6 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 250820,
-        "name": "SteamVR",
-        "playtime_2weeks": 82,
-        "playtime_forever": 14674,
-        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 14502,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 171,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 2897700,
-        "name": "Arizona Sunshine® VR Remake",
-        "playtime_2weeks": 57,
-        "playtime_forever": 364,
-        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
-        "playtime_windows_forever": 364,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1849900,
         "name": "Among Us 3D: VR",
         "playtime_2weeks": 25,
@@ -77,12 +55,34 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 250820,
+        "name": "SteamVR",
+        "playtime_2weeks": 25,
+        "playtime_forever": 14674,
+        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
+        "playtime_windows_forever": 14502,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 171,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
         "playtime_2weeks": 21,
         "playtime_forever": 24308,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 24308,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 2897700,
+        "name": "Arizona Sunshine® VR Remake",
+        "playtime_2weeks": 1,
+        "playtime_forever": 364,
+        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
+        "playtime_windows_forever": 364,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +247,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-12T09:54:35Z"
+  "updated_at": "2026-09-13T10:54:56Z"
 }
