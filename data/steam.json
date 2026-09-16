@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 6,
+    "total_count": 3,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 1811,
-        "playtime_forever": 17394,
+        "playtime_2weeks": 1889,
+        "playtime_forever": 17521,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 17354,
+        "playtime_windows_forever": 17481,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
         "playtime_deck_forever": 0
@@ -44,45 +44,12 @@
         "playtime_deck_forever": 0
       },
       {
-        "appid": 1849900,
-        "name": "Among Us 3D: VR",
-        "playtime_2weeks": 25,
-        "playtime_forever": 25,
-        "img_icon_url": "9c1924a9546e5d5ffca0c4ba3ff5663b92b1799b",
-        "playtime_windows_forever": 25,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 250820,
-        "name": "SteamVR",
-        "playtime_2weeks": 25,
-        "playtime_forever": 14674,
-        "img_icon_url": "7f286d5ee22905b51663e0cea505e1c2f7500f36",
-        "playtime_windows_forever": 14502,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 171,
-        "playtime_deck_forever": 0
-      },
-      {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
         "playtime_2weeks": 21,
         "playtime_forever": 24308,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "playtime_windows_forever": 24308,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 2897700,
-        "name": "Arizona Sunshine® VR Remake",
-        "playtime_2weeks": 1,
-        "playtime_forever": 364,
-        "img_icon_url": "2b81f9a60dadf4c86f8c5894f35b918f881837ab",
-        "playtime_windows_forever": 364,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -247,5 +214,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-15T10:49:44Z"
+  "updated_at": "2026-09-16T10:38:49Z"
 }
