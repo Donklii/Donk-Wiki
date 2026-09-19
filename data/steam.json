@@ -19,39 +19,17 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 3,
+    "total_count": 1,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 2053,
-        "playtime_forever": 17685,
+        "playtime_2weeks": 2180,
+        "playtime_forever": 17812,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
-        "playtime_windows_forever": 17645,
+        "playtime_windows_forever": 17772,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 105600,
-        "name": "Terraria",
-        "playtime_2weeks": 501,
-        "playtime_forever": 7471,
-        "img_icon_url": "858961e95fbf869f136e1770d586e0caefd4cfac",
-        "playtime_windows_forever": 7471,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
-        "playtime_deck_forever": 0
-      },
-      {
-        "appid": 1364780,
-        "name": "Street Fighter™ 6",
-        "playtime_2weeks": 21,
-        "playtime_forever": 24308,
-        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
-        "playtime_windows_forever": 24308,
-        "playtime_mac_forever": 0,
-        "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       }
     ]
@@ -142,7 +120,6 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_2weeks": 21,
         "playtime_forever": 24308,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
@@ -214,5 +191,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-18T10:22:58Z"
+  "updated_at": "2026-09-19T10:06:46Z"
 }
