@@ -24,7 +24,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 986,
+        "playtime_2weeks": 822,
         "playtime_forever": 18508,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 18468,
@@ -202,5 +202,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-30T11:44:13Z"
+  "updated_at": "2026-10-01T12:13:13Z"
 }
