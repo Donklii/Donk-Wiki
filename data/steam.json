@@ -19,17 +19,28 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 2,
+    "total_count": 3,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 822,
+        "playtime_2weeks": 696,
         "playtime_forever": 18508,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 18468,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 40,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 552520,
+        "name": "Far Cry 5",
+        "playtime_2weeks": 83,
+        "playtime_forever": 1157,
+        "img_icon_url": "928df2d32021f480499a97458068f62c45298e7a",
+        "playtime_windows_forever": 1157,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
       },
       {
@@ -47,7 +58,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 560419,
+    "total_playtime_minutes": 560502,
     "top_played": [
       {
         "appid": 271590,
@@ -202,5 +213,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-02T11:42:31Z"
+  "updated_at": "2026-10-03T10:55:59Z"
 }
