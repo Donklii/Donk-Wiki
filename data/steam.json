@@ -19,12 +19,12 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 3,
+    "total_count": 4,
     "games": [
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 549,
+        "playtime_2weeks": 499,
         "playtime_forever": 18508,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 18468,
@@ -44,6 +44,17 @@
         "playtime_deck_forever": 0
       },
       {
+        "appid": 1422450,
+        "name": "Deadlock",
+        "playtime_2weeks": 93,
+        "playtime_forever": 6309,
+        "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
+        "playtime_windows_forever": 6258,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 51,
+        "playtime_deck_forever": 0
+      },
+      {
         "appid": 588650,
         "name": "Dead Cells",
         "playtime_2weeks": 8,
@@ -58,7 +69,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 560599,
+    "total_playtime_minutes": 560692,
     "top_played": [
       {
         "appid": 271590,
@@ -213,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-04T11:38:23Z"
+  "updated_at": "2026-10-05T13:17:27Z"
 }
