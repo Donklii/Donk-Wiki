@@ -35,10 +35,10 @@
       {
         "appid": 552520,
         "name": "Far Cry 5",
-        "playtime_2weeks": 180,
-        "playtime_forever": 1254,
+        "playtime_2weeks": 308,
+        "playtime_forever": 1382,
         "img_icon_url": "928df2d32021f480499a97458068f62c45298e7a",
-        "playtime_windows_forever": 1254,
+        "playtime_windows_forever": 1382,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -46,10 +46,10 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 93,
-        "playtime_forever": 6309,
+        "playtime_2weeks": 298,
+        "playtime_forever": 6515,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
-        "playtime_windows_forever": 6258,
+        "playtime_windows_forever": 6464,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
         "playtime_deck_forever": 0
@@ -69,7 +69,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 560692,
+    "total_playtime_minutes": 561026,
     "top_played": [
       {
         "appid": 271590,
@@ -224,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-05T13:17:27Z"
+  "updated_at": "2026-10-06T12:34:16Z"
 }
