@@ -24,10 +24,10 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 518,
-        "playtime_forever": 6734,
+        "playtime_2weeks": 673,
+        "playtime_forever": 6890,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
-        "playtime_windows_forever": 6683,
+        "playtime_windows_forever": 6839,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
         "playtime_deck_forever": 0
@@ -35,7 +35,7 @@
       {
         "appid": 2357570,
         "name": "Overwatch®",
-        "playtime_2weeks": 499,
+        "playtime_2weeks": 323,
         "playtime_forever": 18508,
         "img_icon_url": "da42bd294c941d5947b1bc2c2b2efa1313d36a91",
         "playtime_windows_forever": 18468,
@@ -69,7 +69,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 561245,
+    "total_playtime_minutes": 561401,
     "top_played": [
       {
         "appid": 271590,
@@ -224,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-07T12:27:30Z"
+  "updated_at": "2026-10-08T12:37:04Z"
 }
