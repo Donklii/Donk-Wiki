@@ -19,12 +19,12 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 2,
+    "total_count": 3,
     "games": [
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 1740,
+        "playtime_2weeks": 1729,
         "playtime_forever": 9101,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
         "playtime_windows_forever": 9050,
@@ -39,6 +39,17 @@
         "playtime_forever": 1562,
         "img_icon_url": "928df2d32021f480499a97458068f62c45298e7a",
         "playtime_windows_forever": 1562,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1905180,
+        "name": "OBS Studio",
+        "playtime_2weeks": 5,
+        "playtime_forever": 1007,
+        "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
+        "playtime_windows_forever": 1007,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -202,5 +213,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-25T10:30:49Z"
+  "updated_at": "2026-10-26T12:03:32Z"
 }
