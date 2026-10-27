@@ -24,10 +24,10 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 1729,
-        "playtime_forever": 9101,
+        "playtime_2weeks": 1893,
+        "playtime_forever": 9365,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
-        "playtime_windows_forever": 9050,
+        "playtime_windows_forever": 9313,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
         "playtime_deck_forever": 0
@@ -58,7 +58,7 @@
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 563792,
+    "total_playtime_minutes": 564056,
     "top_played": [
       {
         "appid": 271590,
@@ -213,5 +213,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-26T12:03:32Z"
+  "updated_at": "2026-10-27T11:23:47Z"
 }
