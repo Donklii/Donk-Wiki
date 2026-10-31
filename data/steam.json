@@ -24,7 +24,7 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 1798,
+        "playtime_2weeks": 1602,
         "playtime_forever": 9726,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
         "playtime_windows_forever": 9675,
@@ -35,7 +35,7 @@
       {
         "appid": 552520,
         "name": "Far Cry 5",
-        "playtime_2weeks": 180,
+        "playtime_2weeks": 27,
         "playtime_forever": 1562,
         "img_icon_url": "928df2d32021f480499a97458068f62c45298e7a",
         "playtime_windows_forever": 1562,
@@ -46,10 +46,10 @@
       {
         "appid": 1905180,
         "name": "OBS Studio",
-        "playtime_2weeks": 5,
-        "playtime_forever": 1007,
+        "playtime_2weeks": 8,
+        "playtime_forever": 1010,
         "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
-        "playtime_windows_forever": 1007,
+        "playtime_windows_forever": 1010,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -224,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-30T11:57:43Z"
+  "updated_at": "2026-10-31T11:31:04Z"
 }
