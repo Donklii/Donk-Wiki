@@ -35,7 +35,7 @@
       {
         "appid": 1905180,
         "name": "OBS Studio",
-        "playtime_2weeks": 8,
+        "playtime_2weeks": 2,
         "playtime_forever": 1010,
         "img_icon_url": "b030cbb319718e6e06ce707ae564e0dd6e560735",
         "playtime_windows_forever": 1010,
@@ -213,5 +213,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-08T12:35:20Z"
+  "updated_at": "2026-11-09T14:53:25Z"
 }
