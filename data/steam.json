@@ -24,7 +24,7 @@
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 586,
+        "playtime_2weeks": 456,
         "playtime_forever": 10121,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
         "playtime_windows_forever": 10069,
@@ -202,5 +202,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-11T13:22:37Z"
+  "updated_at": "2026-11-12T14:27:27Z"
 }
