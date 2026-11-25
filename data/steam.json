@@ -19,24 +19,57 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 1,
+    "total_count": 4,
     "games": [
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 1736,
-        "playtime_forever": 11801,
+        "playtime_2weeks": 1699,
+        "playtime_forever": 11820,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
-        "playtime_windows_forever": 11750,
+        "playtime_windows_forever": 11769,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1091500,
+        "name": "Cyberpunk 2077",
+        "playtime_2weeks": 88,
+        "playtime_forever": 211,
+        "img_icon_url": "6897c3848f3e0350d512f59d5bae174a1e3739f9",
+        "playtime_windows_forever": 211,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 552520,
+        "name": "Far Cry 5",
+        "playtime_2weeks": 11,
+        "playtime_forever": 1573,
+        "img_icon_url": "928df2d32021f480499a97458068f62c45298e7a",
+        "playtime_windows_forever": 1573,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 431960,
+        "name": "Wallpaper Engine",
+        "playtime_2weeks": 8,
+        "playtime_forever": 6302,
+        "img_icon_url": "72edaed9d748c6cf7397ffb1c83f0b837b9ebd9d",
+        "playtime_windows_forever": 6300,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 1,
         "playtime_deck_forever": 0
       }
     ]
   },
   "owned": {
     "game_count": 208,
-    "total_playtime_minutes": 566492,
+    "total_playtime_minutes": 566619,
     "top_played": [
       {
         "appid": 271590,
@@ -191,5 +224,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-24T16:49:47Z"
+  "updated_at": "2026-11-25T16:37:56Z"
 }
