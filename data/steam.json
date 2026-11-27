@@ -10,7 +10,7 @@
     "avatarmedium": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_medium.jpg",
     "avatarfull": "https://avatars.steamstatic.com/16552ee4be491763036edd628f5d585ad0d50034_full.jpg",
     "avatarhash": "16552ee4be491763036edd628f5d585ad0d50034",
-    "lastlogoff": 1795669691,
+    "lastlogoff": 1795756159,
     "personastate": 0,
     "realname": "Donk Lii",
     "primaryclanid": "103582791465667931",
@@ -19,15 +19,15 @@
     "loccountrycode": "BR"
   },
   "recent": {
-    "total_count": 4,
+    "total_count": 5,
     "games": [
       {
         "appid": 1422450,
         "name": "Deadlock",
-        "playtime_2weeks": 1927,
-        "playtime_forever": 12048,
+        "playtime_2weeks": 2047,
+        "playtime_forever": 12173,
         "img_icon_url": "f6da1420a173324d49bcd470fa3eee781ad0fa5e",
-        "playtime_windows_forever": 11997,
+        "playtime_windows_forever": 12122,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 51,
         "playtime_deck_forever": 0
@@ -39,6 +39,17 @@
         "playtime_forever": 211,
         "img_icon_url": "6897c3848f3e0350d512f59d5bae174a1e3739f9",
         "playtime_windows_forever": 211,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0
+      },
+      {
+        "appid": 1364780,
+        "name": "Street Fighter™ 6",
+        "playtime_2weeks": 58,
+        "playtime_forever": 24366,
+        "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
+        "playtime_windows_forever": 24366,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0
@@ -68,8 +79,8 @@
     ]
   },
   "owned": {
-    "game_count": 208,
-    "total_playtime_minutes": 566847,
+    "game_count": 209,
+    "total_playtime_minutes": 567030,
     "top_played": [
       {
         "appid": 271590,
@@ -153,14 +164,15 @@
       {
         "appid": 1364780,
         "name": "Street Fighter™ 6",
-        "playtime_forever": 24308,
+        "playtime_2weeks": 58,
+        "playtime_forever": 24366,
         "img_icon_url": "d8057ee15238077329f869c1610e257461ab3f76",
         "has_community_visible_stats": true,
-        "playtime_windows_forever": 24308,
+        "playtime_windows_forever": 24366,
         "playtime_mac_forever": 0,
         "playtime_linux_forever": 0,
         "playtime_deck_forever": 0,
-        "rtime_last_played": 1788576674,
+        "rtime_last_played": 1795752972,
         "playtime_disconnected": 3303
       },
       {
@@ -224,5 +236,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-26T16:10:18Z"
+  "updated_at": "2026-11-27T15:57:01Z"
 }
